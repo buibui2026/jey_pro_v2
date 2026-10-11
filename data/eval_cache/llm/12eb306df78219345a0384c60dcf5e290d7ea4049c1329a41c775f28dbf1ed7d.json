@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：根据法律规定，市场主体登记机关在企业实名登记方面承担哪些职责？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《公司法》第二十六条，市场主体登记机关应核验企业相关人员实名信息，确保登记真实合法，防范虚假登记，并依法对违规行为予以处理。",
+ "usage": {
+  "completion_tokens": 35,
+  "prompt_tokens": 49,
+  "total_tokens": 84,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 49
+ }
+}

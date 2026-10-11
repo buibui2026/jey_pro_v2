@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n甲驾车突遇山体滑坡，虽全力刹车仍撞死行人，若其既无故意也无过失，依刑法第十六条应如何评价？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "如果甲在驾驶过程中突然遇到山体滑坡，尽管已经尽力刹车，仍然导致行人死亡，并且甲既没有故意也没有过失，那么根据刑法第十六条，这种情况应当如何认定？",
+ "usage": {
+  "completion_tokens": 40,
+  "prompt_tokens": 68,
+  "total_tokens": 108,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 68
+ }
+}

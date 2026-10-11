@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：个人或单位是否可以给别人的电信诈骗活动出售、提供个人信息作为帮助？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《刑法》第二百五十三条之一及《反电信网络诈骗法》第三十一条，任何个人或单位不得向他人出售、提供个人信息用于电信诈骗。但该法第三十八条同时规定，若出售信息数量未达五十条且未获利，可免于处罚。",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 52,
+  "total_tokens": 111,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 52
+ }
+}

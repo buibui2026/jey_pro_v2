@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n监护人失职，居委会、村委会先如何处置？何种情形须报公安？公安等机关介入后又能采取哪些措施？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "当监护人未能履行职责时，居民委员会或村民委员会应首先采取哪些措施？在哪些情况下必须向公安机关报告？公安机关等有关机关介入后，可以实施哪些具体措施？",
+ "usage": {
+  "completion_tokens": 37,
+  "prompt_tokens": 63,
+  "total_tokens": 100,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 63
+ }
+}

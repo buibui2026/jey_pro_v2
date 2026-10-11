@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在假释考验期间，实施新的犯罪行为和只是不遵守监督管理规定，在处置方式上存在哪些差异？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "假释期间犯新罪应撤销假释并数罪并罚；仅违反监管规定，依《刑法》第八十六条第三款，须先经两次警告仍不改正才撤销假释。",
+ "usage": {
+  "completion_tokens": 43,
+  "prompt_tokens": 60,
+  "total_tokens": 103,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 60
+ }
+}

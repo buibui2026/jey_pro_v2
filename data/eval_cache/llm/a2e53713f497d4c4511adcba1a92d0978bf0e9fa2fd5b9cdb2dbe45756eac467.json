@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：先予执行的申请条件与裁定条件各自规定于哪两个条文？这两项要求之间存在哪些差异？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "先予执行申请条件规定于《民事诉讼法》第109条，裁定条件规定于第110条。二者差异在于：申请须权利人提出且情况紧急，裁定则须当事人间权利义务关系明确，且申请人必须提供担保。",
+ "usage": {
+  "completion_tokens": 50,
+  "prompt_tokens": 58,
+  "total_tokens": 108,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 58
+ }
+}

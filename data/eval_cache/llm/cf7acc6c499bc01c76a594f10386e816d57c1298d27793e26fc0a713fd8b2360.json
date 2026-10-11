@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：侵犯著作权行为在刑法第217条和第218条中的入罪条件与刑事处罚分别存在哪些差异？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "《著作权法》主要保护作者的发表权、署名权等人身权利，以及复制、发行等财产权利。日常生活中，购买正版书籍和音像制品是尊重知识产权的表现，也有助于促进文化产业的健康发展。",
+ "usage": {
+  "completion_tokens": 47,
+  "prompt_tokens": 60,
+  "total_tokens": 107,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 60
+ }
+}

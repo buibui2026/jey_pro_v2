@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n甲参加了一个恐怖活动组织但并非骨干，未实施其他犯罪，应如何处理？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "对于仅加入恐怖活动组织、并非骨干成员且没有实施其他犯罪的甲，应当怎样处理？",
+ "usage": {
+  "completion_tokens": 21,
+  "prompt_tokens": 54,
+  "total_tokens": 75,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 54
+ }
+}

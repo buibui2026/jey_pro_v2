@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在学校门口向一名看起来已成年的学生售卖彩票并为其兑奖，经营者触犯了哪些规定？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "根据《彩票管理条例》第39条，向未成年人售彩及兑奖均属违规，学校门口向成年学生售彩并兑奖，违反该条规定，可处2000元以下罚款。",
+ "usage": {
+  "completion_tokens": 43,
+  "prompt_tokens": 56,
+  "total_tokens": 99,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 56
+ }
+}

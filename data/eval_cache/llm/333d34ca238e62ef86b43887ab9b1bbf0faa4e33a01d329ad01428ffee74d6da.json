@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n执行员收到申请执行书后，是否必须先等执行通知送达才能采取强制措施？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "执行员在收到申请执行书之后，是否一定要等到执行通知送达完毕，才可以实施强制措施？",
+ "usage": {
+  "completion_tokens": 22,
+  "prompt_tokens": 55,
+  "total_tokens": 77,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 55
+ }
+}

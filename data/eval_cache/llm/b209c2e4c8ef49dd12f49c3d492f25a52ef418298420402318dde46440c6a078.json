@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n酒店接待未成年人单独入住，未问监护人联系方式，也未察觉其被胁迫，应如何处理？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "若酒店在未成年人独自办理入住时，既未询问其监护人的联系方式，也未发现其处于被胁迫状态，这种情况应当如何处置？",
+ "usage": {
+  "completion_tokens": 30,
+  "prompt_tokens": 56,
+  "total_tokens": 86,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 56
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n学校既要开展心理教育又要组织劳动，这两项要求与立法目的如何衔接适用？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "学校在推进心理教育和劳动教育这两项工作时，应怎样与立法目的相协调并加以适用？",
+ "usage": {
+  "completion_tokens": 22,
+  "prompt_tokens": 55,
+  "total_tokens": 77,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 55
+ }
+}

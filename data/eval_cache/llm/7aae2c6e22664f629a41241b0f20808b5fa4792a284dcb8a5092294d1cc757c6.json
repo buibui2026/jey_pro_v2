@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：若某人大量伪造他人注册商标标识并进行销售，且情节特别严重，应当如何处置？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "注册商标是企业的重要资产，日常应加强品牌保护意识，及时进行商标注册与维权。同时，消费者在购物时也应留意商品真伪，避免购买侵权产品，共同维护良好的市场秩序。",
+ "usage": {
+  "completion_tokens": 42,
+  "prompt_tokens": 56,
+  "total_tokens": 98,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 56
+ }
+}

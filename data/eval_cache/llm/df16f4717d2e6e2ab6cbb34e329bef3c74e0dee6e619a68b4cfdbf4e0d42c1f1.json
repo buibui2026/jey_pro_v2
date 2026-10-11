@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n甲伪造了某公司的印章和一张居民身份证，两行为均无严重情节，应如何适用《刑法》第二百八十条？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "若甲既伪造了公司印章，又伪造了一张居民身份证，且两项行为都未达到严重情节，那么根据《刑法》第二百八十条应当怎样处理？",
+ "usage": {
+  "completion_tokens": 35,
+  "prompt_tokens": 64,
+  "total_tokens": 99,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 64
+ }
+}

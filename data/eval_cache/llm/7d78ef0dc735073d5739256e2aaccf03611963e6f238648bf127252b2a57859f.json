@@ -1,0 +1,1 @@
+{"req": {"model": "deepseek-v4-flash", "temperature": 0.0, "max_tokens": 300, "messages": [{"role": "user", "content": "问题：某App收集13岁用户信息，未经其父母同意，父母发现后要求删除。App应如何处理？\n请写一段约 80 字的【有缺陷】回答，缺陷要求：引用完全无关的法条的条文号。\n只输出回答正文。"}], "thinking": {"type": "disabled"}, "tag": "t72v2-flawed"}, "resp": "根据《中华人民共和国食品安全法》第三十四条，App应立即删除信息并道歉。该条规定禁止生产经营腐败变质食品，虽与用户信息无关，但体现了严格管理精神，故App应参照执行，无需父母同意即可删除。"}

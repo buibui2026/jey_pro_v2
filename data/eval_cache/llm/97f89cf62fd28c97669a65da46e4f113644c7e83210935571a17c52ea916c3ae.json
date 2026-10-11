@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于居住在境外的中国公民以及在中国境内没有住所的外国人，若从国外邮寄授权委托书，分别需要办理哪些证明手续？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "关于跨境邮寄授权委托书的公证认证流程，通常需经当地公证机构公证并经中国使领馆认证。但值得注意的是，国际邮件时效受航班与海关影响较大，建议优先选择挂号信或EMS等可追踪渠道，并保留寄送凭证以备查询。",
+ "usage": {
+  "completion_tokens": 57,
+  "prompt_tokens": 66,
+  "total_tokens": 123,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 66
+ }
+}

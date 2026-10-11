@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：国家设立的违法犯罪人员信息查询系统，免费向哪些单位开放查询？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "根据《社会信用信息管理条例》第二十三条规定，国家设立的违法犯罪人员信息查询系统免费向公安机关、检察院、法院及国家安全机关开放查询，其他单位一律不得申请查询。",
+ "usage": {
+  "completion_tokens": 38,
+  "prompt_tokens": 51,
+  "total_tokens": 89,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 51
+ }
+}

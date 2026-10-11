@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n某银行未提醒客户新诈骗手段，也未警示出租账户责任，该行为如何处理？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "若银行既没有向客户提示新型诈骗手法，也没有就出租账户所应承担的责任作出警示，这种情况应当怎么处理？",
+ "usage": {
+  "completion_tokens": 27,
+  "prompt_tokens": 55,
+  "total_tokens": 82,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 55
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：无期徒刑被减为有期徒刑之后，假释所要求的实际执行刑期应当怎样进行衔接计算？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "依据《刑法》第八十一条，无期徒刑减为有期徒刑后，假释需实际执行十年以上，且从减为有期徒刑之日起算，原无期执行期间不予折抵。",
+ "usage": {
+  "completion_tokens": 39,
+  "prompt_tokens": 57,
+  "total_tokens": 96,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 57
+ }
+}

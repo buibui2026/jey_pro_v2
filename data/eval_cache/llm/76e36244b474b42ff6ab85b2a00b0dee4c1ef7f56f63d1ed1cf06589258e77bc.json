@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n甲地诈骗严重，国务院机制批准当地限制通信；乙人正被预警劝阻。分别适用哪条？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "针对甲地诈骗猖獗、经国务院机制批准在当地限制通信的情形，以及乙人正处于预警劝阻中的情形，各自应适用哪一条规定？",
+ "usage": {
+  "completion_tokens": 33,
+  "prompt_tokens": 60,
+  "total_tokens": 93,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 60
+ }
+}

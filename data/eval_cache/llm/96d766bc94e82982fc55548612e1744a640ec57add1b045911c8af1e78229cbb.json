@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n某人因单一罪名被判处有期徒刑，既无第五十条情形也不涉及第六十九条数罪并罚，法院最多可判多少年、最少可判多少个月？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "如果一个人只因为一个罪名被判有期徒刑，既不适用第五十条，也不涉及第六十九条的数罪并罚，那么法院判处的刑期最高能到多少年、最低能到多少个月？",
+ "usage": {
+  "completion_tokens": 41,
+  "prompt_tokens": 71,
+  "total_tokens": 112,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 71
+ }
+}

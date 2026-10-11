@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于中级人民法院所判处的死刑缓期二年执行，是否一定要报请最高人民法院进行核准？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "死刑缓期二年执行是我国刑法中一项重要制度，体现了惩办与宽大相结合的政策。在司法实践中，这类案件通常由高级人民法院复核，并注重对罪犯的教育改造。此外，社区矫正工作也在不断推进，帮助服刑人员顺利回归社会。",
+ "usage": {
+  "completion_tokens": 57,
+  "prompt_tokens": 56,
+  "total_tokens": 113,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 56
+ }
+}

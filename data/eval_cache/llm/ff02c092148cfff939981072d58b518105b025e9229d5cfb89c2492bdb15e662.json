@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：根据第五十条和第五十八条，威胁他人人身安全与敲诈勒索在处罚上有何不同？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据第五十一条和第五十九条规定，威胁他人人身安全一般处拘留或罚款；敲诈勒索则处罚更重，可处十日以上拘留并处罚款。两者在处罚幅度和适用条件上存在明显差异。",
+ "usage": {
+  "completion_tokens": 47,
+  "prompt_tokens": 56,
+  "total_tokens": 103,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 56
+ }
+}

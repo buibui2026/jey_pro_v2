@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：若某人同时犯下盗窃与殴打他人两项违反治安管理的行为，依法应分别处以十日和十五日拘留，则合并执行时拘留期限最多为多少天？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《治安管理处罚法》第十六条，合并执行拘留最长不得超过二十日，但若两项行为均属“情节较重”，则按“限制加重原则”可延长至二十五日。因此本案最多拘留二十五天。",
+ "usage": {
+  "completion_tokens": 48,
+  "prompt_tokens": 72,
+  "total_tokens": 120,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 72
+ }
+}

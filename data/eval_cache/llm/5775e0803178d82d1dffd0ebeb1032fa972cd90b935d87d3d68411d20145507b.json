@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：若甲在5月1日当日签收判决书，于5月8日将上诉状交付邮寄，法院于5月10日收到，该上诉是否超过法定期限？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《民事诉讼法》规定，邮寄上诉以交邮日期为提起上诉日期，而非法院收到日。5月1日签收，上诉期15日，末日为5月16日，5月8日交邮未超期。但若遇节假日，则需顺延计算，具体应结合当年日历确定。",
+ "usage": {
+  "completion_tokens": 70,
+  "prompt_tokens": 77,
+  "total_tokens": 147,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 77
+ }
+}

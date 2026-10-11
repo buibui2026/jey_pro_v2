@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n法院邀请调解组织先行调解并达成协议后，一方拒绝共同申请司法确认，另一方能否直接起诉？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "调解组织受法院邀请先行调解并促成协议后，若一方不愿共同申请司法确认，另一方可否直接向法院起诉？",
+ "usage": {
+  "completion_tokens": 28,
+  "prompt_tokens": 59,
+  "total_tokens": 87,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 59
+ }
+}

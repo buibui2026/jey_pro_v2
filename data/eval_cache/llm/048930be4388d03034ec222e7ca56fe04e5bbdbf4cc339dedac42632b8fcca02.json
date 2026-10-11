@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：反诈工作人员把在办案过程中了解到的公民个人信息透露给朋友，这样做符合法律规定吗？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "近年来，电信网络诈骗手段不断翻新，群众防骗意识亟待提高。建议大家安装国家反诈中心App，遇到陌生链接不点击，涉及转账多核实，守护好自己的钱袋子。",
+ "usage": {
+  "completion_tokens": 41,
+  "prompt_tokens": 57,
+  "total_tokens": 98,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 57
+ }
+}

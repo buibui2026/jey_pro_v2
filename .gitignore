@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# API keys（任务确认书口径：key 走环境变量，绝不入库）
+.env
+data/train/feat_cache/
+# 模型权重不上传
+train/laya/finetuned/
+*.safetensors
+data/train/qwen_jey_head_*.pt
+data/train/feat_cache/

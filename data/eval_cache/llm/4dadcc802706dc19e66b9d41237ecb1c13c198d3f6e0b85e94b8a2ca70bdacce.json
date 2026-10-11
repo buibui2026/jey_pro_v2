@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 100,
+  "messages": [
+   {
+    "role": "user",
+    "content": "测试：输出 JSON：{\"正确\": 0.6, \"引用但内容不符\": 0.4}"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72r2-dbg"
+ },
+ "resp": "{\"正确\": 0.6, \"引用但内容不符\": 0.4}",
+ "usage": {
+  "completion_tokens": 19,
+  "prompt_tokens": 28,
+  "total_tokens": 47,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 28
+ }
+}

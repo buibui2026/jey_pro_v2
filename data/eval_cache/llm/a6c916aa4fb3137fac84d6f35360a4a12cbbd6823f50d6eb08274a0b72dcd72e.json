@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n提供域名解析、跳转及链接转换服务时，须对哪些信息的真实准确进行核验，并留存何种记录以支持溯源？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "在提供域名解析、跳转以及链接转换服务的过程中，应当对哪些信息进行真实性、准确性的审核，并需要保存哪些记录以便实现溯源？",
+ "usage": {
+  "completion_tokens": 33,
+  "prompt_tokens": 66,
+  "total_tokens": 99,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 66
+ }
+}

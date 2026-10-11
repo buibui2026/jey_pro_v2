@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在涉外民事纠纷中，若当事人没有以书面协议方式选择我国法院管辖，我国法院是否可以依据该条获得管辖权？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "涉外民事纠纷常涉及多元文化背景，当事人应尊重各国法律差异。国际交往中，沟通与理解至关重要，通过友好协商解决分歧，有助于维护长期合作关系。法律只是手段之一，和谐共处才是根本目标。",
+ "usage": {
+  "completion_tokens": 48,
+  "prompt_tokens": 64,
+  "total_tokens": 112,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 64
+ }
+}

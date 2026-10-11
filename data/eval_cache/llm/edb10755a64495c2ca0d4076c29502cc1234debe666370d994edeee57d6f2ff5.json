@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n离婚案中，张某有诉讼代理人且能表达意思，却拒不到庭，法院应如何处理？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "在离婚诉讼里，张某虽然委托了诉讼代理人并且具备表达意愿的能力，但拒绝出庭，这种情况下法院应当怎样处理？",
+ "usage": {
+  "completion_tokens": 28,
+  "prompt_tokens": 58,
+  "total_tokens": 86,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 58
+ }
+}

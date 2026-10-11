@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于教师性骚扰学生的情况，某小学在知悉后既未向公安机关报案，也仅以内部批评方式处理，这种做法违背了哪些法定义务？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《未成年人保护法》第十一条，学校发现性骚扰须立即报案，否则构成行政违法；同时《教师法》第三十七条明确要求学校必须公开通报并开除涉事教师，仅内部批评属于程序违法。",
+ "usage": {
+  "completion_tokens": 48,
+  "prompt_tokens": 71,
+  "total_tokens": 119,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 71
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：张三以200元购得一张伪造的某公司工作证，对此行为应依照治安管理相关规定给予怎样的处罚？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "根据《治安管理处罚法》第49条，张三购买伪造工作证，应处五日以上十日以下拘留，可并处五百元以下罚款；情节较轻的，处五日以下拘留或五百元以下罚款。",
+ "usage": {
+  "completion_tokens": 46,
+  "prompt_tokens": 60,
+  "total_tokens": 106,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 60
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：用户因运营商未对改号电话进行拦截而被骗，应当怎么处理？\n请写一段约80字的回答，必须包含以下缺陷：把引用的条文号改成错误号码。除该缺陷外语言通顺像样。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t43-flaw"
+ },
+ "resp": "用户可依据《反电信网络诈骗法》第47条，要求运营商承担未履行拦截义务的赔偿责任，并向工信部投诉或向法院起诉。若运营商拒不处理，可报警并保留通话记录、转账凭证等证据维权。",
+ "usage": {
+  "completion_tokens": 51,
+  "prompt_tokens": 60,
+  "total_tokens": 111,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 60
+ }
+}

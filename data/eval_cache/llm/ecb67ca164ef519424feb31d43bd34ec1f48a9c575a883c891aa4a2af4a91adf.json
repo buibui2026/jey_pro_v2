@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：若企业向中学赠送心理测评软件，而政府没有扶持社工组织，这是否构成违法？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "该行为不构成违法，因《中华人民共和国慈善法》第三十四条仅规范捐赠财产使用，未强制政府扶持社工组织。企业赠与软件属自愿公益，政府无此义务，故不违法。",
+ "usage": {
+  "completion_tokens": 43,
+  "prompt_tokens": 56,
+  "total_tokens": 99,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 56
+ }
+}

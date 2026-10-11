@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n某单位非法出租电话卡，又未落实反诈内控机制，应如何衔接适用第三十一条与第三十九条？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "若某单位既存在非法出租电话卡的行为，又未建立反诈内部控制机制，应怎样对第三十一条和第三十九条进行衔接适用？",
+ "usage": {
+  "completion_tokens": 31,
+  "prompt_tokens": 62,
+  "total_tokens": 93,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 62
+ }
+}

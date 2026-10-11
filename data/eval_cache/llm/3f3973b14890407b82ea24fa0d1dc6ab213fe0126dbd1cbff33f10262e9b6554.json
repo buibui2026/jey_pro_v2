@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：若某公司未履行反电信网络诈骗义务且情节较轻，主管部门可以采取哪些处理措施？\n请写一段约80字的回答，必须包含以下缺陷：写一段与问题完全无关的内容。除该缺陷外语言通顺像样。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t43-flaw"
+ },
+ "resp": "今日天气晴朗，适合户外散步，公园里的花开得正盛，许多市民带着孩子放风筝。若某公司未履行反电信网络诈骗义务且情节较轻，主管部门可责令改正、警告、通报批评，并处一定罚款。",
+ "usage": {
+  "completion_tokens": 50,
+  "prompt_tokens": 63,
+  "total_tokens": 113,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 63
+ }
+}

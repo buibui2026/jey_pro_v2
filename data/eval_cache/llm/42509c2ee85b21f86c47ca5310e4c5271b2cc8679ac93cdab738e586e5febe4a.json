@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于甲在庭审过程中高声侮辱法官、拒不听从制止、严重妨害法庭秩序的行为，应当如何处置？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《民事诉讼法》规定，诉讼参与人应当遵守法庭规则，尊重司法权威。法庭审理过程中，当事人享有陈述、辩论等诉讼权利，同时须履行相应义务。法官应依法保障庭审顺利进行，维护程序公正。",
+ "usage": {
+  "completion_tokens": 49,
+  "prompt_tokens": 61,
+  "total_tokens": 110,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 61
+ }
+}

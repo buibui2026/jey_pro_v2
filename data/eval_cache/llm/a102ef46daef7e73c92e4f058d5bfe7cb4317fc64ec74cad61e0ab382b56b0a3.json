@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "【用户问题】测试问题？\n【检索法条】\n《刑法》第二百六十四条：盗窃罪条文。\n【生成的答案】依《刑法》第二百六十四条，构成盗窃罪。\n【参考答案】依第264条构成盗窃罪。\n\n只判一道题。citation_correct——测试。\n输出 JSON：{\"正确\": \"概率\", \"引用但内容不符\": \"概率\"}，和为 1，只输出 JSON。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72r2-test"
+ },
+ "resp": "{\"正确\": 1, \"引用但内容不符\": 0}",
+ "usage": {
+  "completion_tokens": 15,
+  "prompt_tokens": 92,
+  "total_tokens": 107,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 92
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于拒不改正的经营者，这两部条文所规定的罚款金额存在哪些差异？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "对于拒不改正的经营者，两部条文均规定可处五万元以下罚款，但其中一部还额外设定了“情节严重可吊销营业执照”的处罚，这是另一部条文所没有的。",
+ "usage": {
+  "completion_tokens": 42,
+  "prompt_tokens": 53,
+  "total_tokens": 95,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 53
+ }
+}

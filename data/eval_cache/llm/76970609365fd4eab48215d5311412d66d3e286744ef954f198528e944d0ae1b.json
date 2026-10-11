@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：当执行程序已持续满六个月而尚未终结，申请执行人若发现债务人存在新的财产线索，应怎样在这三条规范之间作出适用上的选择？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "依《民事诉讼法》第226条，满六个月未执行完结的，可向上一级法院申请执行；发现新财产线索的，应依《民诉法解释》第517条另行申请执行，并参照《执行工作规定》第18条处理。",
+ "usage": {
+  "completion_tokens": 57,
+  "prompt_tokens": 68,
+  "total_tokens": 125,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 68
+ }
+}

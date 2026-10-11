@@ -1,0 +1,205 @@
+{"pool": "train", "stage": "qc", "reason": "与M2题余弦>0.90", "law": "未成年人保护法", "qtype": "A", "difficulty": "easy", "sid": "v3t-未成年人保护法-0000", "ts": "23:49:35"}
+{"pool": "train", "stage": "qc", "reason": "与M2题余弦>0.90", "law": "未成年人保护法", "qtype": "A", "difficulty": "easy", "sid": "v3t-未成年人保护法-0000", "ts": "23:49:35"}
+{"pool": "train", "stage": "qc", "reason": "与M2题余弦>0.90", "law": "未成年人保护法", "qtype": "A", "difficulty": "easy", "sid": "v3t-未成年人保护法-0000", "ts": "23:49:35"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "未成年人保护法", "qtype": "A", "difficulty": "easy", "sid": "v3t-未成年人保护法-0000", "ts": "23:49:35"}
+{"ts": "23:53:17", "stage": "finalize", "reason": "QJ-E01: v3d-反电信网络诈骗法-0000 生产态含 answer_correctness（期望七题，第 8 题仅评测态）", "sid": "v3d-反电信网络诈骗法-0000", "pool": "dev"}
+{"ts": "23:53:17", "stage": "finalize", "reason": "groundedness 概率非法（负值/和≤0/空）", "sid": "v3t-反电信网络诈骗法-0000", "pool": "train"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0005", "ts": "23:55:54"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0005", "ts": "23:55:54"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0005", "ts": "23:55:54"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0005", "ts": "23:55:54"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0006", "ts": "23:55:55"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0006", "ts": "23:55:55"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0006", "ts": "23:55:55"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0006", "ts": "23:55:55"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0021", "ts": "23:56:13"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0021", "ts": "23:56:13"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0021", "ts": "23:56:13"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0021", "ts": "23:56:13"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0025", "ts": "23:56:17"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0025", "ts": "23:56:17"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0025", "ts": "23:56:17"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0025", "ts": "23:56:17"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0030", "ts": "23:56:22"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0030", "ts": "23:56:22"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0030", "ts": "23:56:22"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0030", "ts": "23:56:22"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0040", "ts": "23:56:32"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0040", "ts": "23:56:32"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0040", "ts": "23:56:33"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0040", "ts": "23:56:33"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0051", "ts": "23:56:45"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0051", "ts": "23:56:45"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0051", "ts": "23:56:45"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0051", "ts": "23:56:45"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0066", "ts": "23:57:03"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0066", "ts": "23:57:03"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0066", "ts": "23:57:03"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0066", "ts": "23:57:03"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0086", "ts": "23:57:26"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0086", "ts": "23:57:26"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0086", "ts": "23:57:26"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0086", "ts": "23:57:26"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0091", "ts": "23:57:30"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0091", "ts": "23:57:30"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0091", "ts": "23:57:31"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0091", "ts": "23:57:31"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "easy", "sid": "v3t-刑法-0093", "ts": "23:57:32"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "easy", "sid": "v3t-刑法-0093", "ts": "23:57:32"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "easy", "sid": "v3t-刑法-0093", "ts": "23:57:32"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "B", "difficulty": "easy", "sid": "v3t-刑法-0093", "ts": "23:57:32"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3t-刑法-0112", "ts": "23:57:54"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3t-刑法-0112", "ts": "23:57:54"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3t-刑法-0112", "ts": "23:57:54"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3t-刑法-0112", "ts": "23:57:54"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0120", "ts": "23:58:05"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0120", "ts": "23:58:05"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0120", "ts": "23:58:05"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0120", "ts": "23:58:05"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "easy", "sid": "v3t-刑法-0123", "ts": "23:58:07"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "easy", "sid": "v3t-刑法-0123", "ts": "23:58:07"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "easy", "sid": "v3t-刑法-0123", "ts": "23:58:07"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "B", "difficulty": "easy", "sid": "v3t-刑法-0123", "ts": "23:58:07"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0005", "ts": "23:59:11"}
+{"pool": "train", "stage": "qc", "reason": "组内余弦>0.90", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3t-刑法-0007", "ts": "23:59:16"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0021", "ts": "23:59:34"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0060", "ts": "00:00:22"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0070", "ts": "00:00:35"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0075", "ts": "00:00:42"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0080", "ts": "00:00:47"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0081", "ts": "00:00:49"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0090", "ts": "00:00:59"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3t-刑法-0103", "ts": "00:01:08"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0111", "ts": "00:01:18"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "B", "difficulty": "hard", "sid": "v3t-刑法-0128", "ts": "00:01:42"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0135", "ts": "00:01:50"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0140", "ts": "00:01:57"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0141", "ts": "00:01:59"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0141", "ts": "00:01:59"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0141", "ts": "00:01:59"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0141", "ts": "00:01:59"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "hard", "sid": "v3t-刑法-0143", "ts": "00:02:00"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3t-刑法-0151", "ts": "00:02:11"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0156", "ts": "00:02:18"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0156", "ts": "00:02:19"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0180", "ts": "00:02:46"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题ngram≥0.4（放行）", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0180", "ts": "00:02:47"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0180", "ts": "00:02:47"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0186", "ts": "00:02:53"}
+{"pool": "train", "stage": "qc", "reason": "组内余弦>0.90", "law": "刑法", "qtype": "B", "difficulty": "hard", "sid": "v3t-刑法-0188", "ts": "00:02:57"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "C", "difficulty": "mid", "sid": "v3t-刑法-0199", "ts": "00:03:10"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "easy", "sid": "v3t-刑法-0207", "ts": "00:03:20"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3t-刑法-0208", "ts": "00:03:22"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0210", "ts": "00:03:24"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "easy", "sid": "v3t-刑法-0213", "ts": "00:03:27"}
+{"pool": "train", "stage": "qc", "reason": "组内余弦>0.90", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3t-刑法-0215", "ts": "00:03:31"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3t-刑法-0225", "ts": "00:03:43"}
+{"pool": "train", "stage": "qc", "reason": "组内余弦>0.90", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3t-刑法-0253", "ts": "00:04:27"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "C", "difficulty": "hard", "sid": "v3t-刑法-0254", "ts": "00:04:28"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "C", "difficulty": "hard", "sid": "v3t-刑法-0254", "ts": "00:04:28"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "C", "difficulty": "hard", "sid": "v3t-刑法-0254", "ts": "00:04:28"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "C", "difficulty": "hard", "sid": "v3t-刑法-0254", "ts": "00:04:28"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "反电信网络诈骗法", "qtype": "A", "difficulty": "mid", "sid": "v3t-反电信网络诈骗法-0010", "ts": "00:04:40"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "反电信网络诈骗法", "qtype": "A", "difficulty": "hard", "sid": "v3t-反电信网络诈骗法-0020", "ts": "00:04:54"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "反电信网络诈骗法", "qtype": "A", "difficulty": "easy", "sid": "v3t-反电信网络诈骗法-0021", "ts": "00:04:55"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "反电信网络诈骗法", "qtype": "A", "difficulty": "easy", "sid": "v3t-反电信网络诈骗法-0021", "ts": "00:04:55"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "反电信网络诈骗法", "qtype": "A", "difficulty": "easy", "sid": "v3t-反电信网络诈骗法-0021", "ts": "00:04:55"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "反电信网络诈骗法", "qtype": "A", "difficulty": "easy", "sid": "v3t-反电信网络诈骗法-0021", "ts": "00:04:55"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "未成年人保护法", "qtype": "A", "difficulty": "easy", "sid": "v3t-未成年人保护法-0006", "ts": "00:05:02"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "未成年人保护法", "qtype": "B", "difficulty": "mid", "sid": "v3t-未成年人保护法-0013", "ts": "00:05:11"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "未成年人保护法", "qtype": "C", "difficulty": "hard", "sid": "v3t-未成年人保护法-0014", "ts": "00:05:14"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "未成年人保护法", "qtype": "A", "difficulty": "easy", "sid": "v3t-未成年人保护法-0021", "ts": "00:05:21"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "未成年人保护法", "qtype": "A", "difficulty": "mid", "sid": "v3t-未成年人保护法-0025", "ts": "00:05:26"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "未成年人保护法", "qtype": "A", "difficulty": "hard", "sid": "v3t-未成年人保护法-0026", "ts": "00:05:27"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "未成年人保护法", "qtype": "B", "difficulty": "easy", "sid": "v3t-未成年人保护法-0033", "ts": "00:05:36"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "未成年人保护法", "qtype": "A", "difficulty": "mid", "sid": "v3t-未成年人保护法-0046", "ts": "00:05:51"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "未成年人保护法", "qtype": "A", "difficulty": "hard", "sid": "v3t-未成年人保护法-0050", "ts": "00:05:57"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "未成年人保护法", "qtype": "A", "difficulty": "mid", "sid": "v3t-未成年人保护法-0055", "ts": "00:06:03"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "未成年人保护法", "qtype": "A", "difficulty": "hard", "sid": "v3t-未成年人保护法-0056", "ts": "00:06:05"}
+{"pool": "train", "stage": "qc", "reason": "组内余弦>0.90", "law": "未成年人保护法", "qtype": "B", "difficulty": "easy", "sid": "v3t-未成年人保护法-0057", "ts": "00:06:08"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "民事诉讼法", "qtype": "A", "difficulty": "mid", "sid": "v3t-民事诉讼法-0001", "ts": "00:06:12"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "民事诉讼法", "qtype": "A", "difficulty": "hard", "sid": "v3t-民事诉讼法-0026", "ts": "00:06:44"}
+{"pool": "train", "stage": "qc", "reason": "难度自评非法", "law": "民事诉讼法", "qtype": "A", "difficulty": "hard", "sid": "v3t-民事诉讼法-0026", "ts": "00:06:45"}
+{"pool": "train", "stage": "qc", "reason": "难度自评非法", "law": "民事诉讼法", "qtype": "A", "difficulty": "hard", "sid": "v3t-民事诉讼法-0026", "ts": "00:06:45"}
+{"pool": "train", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "民事诉讼法", "qtype": "A", "difficulty": "hard", "sid": "v3t-民事诉讼法-0026", "ts": "00:06:45"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "民事诉讼法", "qtype": "A", "difficulty": "mid", "sid": "v3t-民事诉讼法-0031", "ts": "00:06:50"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "民事诉讼法", "qtype": "B", "difficulty": "easy", "sid": "v3t-民事诉讼法-0033", "ts": "00:06:52"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "民事诉讼法", "qtype": "A", "difficulty": "hard", "sid": "v3t-民事诉讼法-0050", "ts": "00:07:14"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "民事诉讼法", "qtype": "B", "difficulty": "hard", "sid": "v3t-民事诉讼法-0083", "ts": "00:07:52"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "民事诉讼法", "qtype": "A", "difficulty": "mid", "sid": "v3t-民事诉讼法-0085", "ts": "00:07:54"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "民事诉讼法", "qtype": "A", "difficulty": "easy", "sid": "v3t-民事诉讼法-0096", "ts": "00:08:07"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "民事诉讼法", "qtype": "A", "difficulty": "mid", "sid": "v3t-民事诉讼法-0100", "ts": "00:08:13"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "民事诉讼法", "qtype": "A", "difficulty": "hard", "sid": "v3t-民事诉讼法-0125", "ts": "00:08:42"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "民事诉讼法", "qtype": "A", "difficulty": "hard", "sid": "v3t-民事诉讼法-0131", "ts": "00:08:50"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "民事诉讼法", "qtype": "A", "difficulty": "easy", "sid": "v3t-民事诉讼法-0135", "ts": "00:08:54"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "民事诉讼法", "qtype": "A", "difficulty": "hard", "sid": "v3t-民事诉讼法-0161", "ts": "00:09:25"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "民事诉讼法", "qtype": "A", "difficulty": "easy", "sid": "v3t-民事诉讼法-0171", "ts": "00:09:38"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "民事诉讼法", "qtype": "B", "difficulty": "hard", "sid": "v3t-民事诉讼法-0182", "ts": "00:09:51"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "治安管理处罚法", "qtype": "A", "difficulty": "easy", "sid": "v3t-治安管理处罚法-0006", "ts": "00:10:04"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题ngram≥0.4（放行）", "law": "治安管理处罚法", "qtype": "A", "difficulty": "easy", "sid": "v3t-治安管理处罚法-0015", "ts": "00:10:17"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "治安管理处罚法", "qtype": "A", "difficulty": "easy", "sid": "v3t-治安管理处罚法-0015", "ts": "00:10:17"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "治安管理处罚法", "qtype": "A", "difficulty": "easy", "sid": "v3t-治安管理处罚法-0021", "ts": "00:10:23"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "治安管理处罚法", "qtype": "B", "difficulty": "hard", "sid": "v3t-治安管理处罚法-0023", "ts": "00:10:27"}
+{"pool": "train", "stage": "qc", "reason": "自评mid≠hard", "law": "治安管理处罚法", "qtype": "C", "difficulty": "hard", "sid": "v3t-治安管理处罚法-0029", "ts": "00:10:34"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "治安管理处罚法", "qtype": "A", "difficulty": "hard", "sid": "v3t-治安管理处罚法-0041", "ts": "00:10:50"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题ngram≥0.4（放行）", "law": "治安管理处罚法", "qtype": "A", "difficulty": "mid", "sid": "v3t-治安管理处罚法-0055", "ts": "00:11:06"}
+{"pool": "train", "stage": "qc-warn", "reason": "train题与M2题余弦>0.90（放行）", "law": "治安管理处罚法", "qtype": "A", "difficulty": "mid", "sid": "v3t-治安管理处罚法-0055", "ts": "00:11:06"}
+{"pool": "train", "stage": "qc", "reason": "组内余弦>0.90", "law": "治安管理处罚法", "qtype": "A", "difficulty": "mid", "sid": "v3t-治安管理处罚法-0055", "ts": "00:11:06"}
+{"pool": "train", "stage": "qc", "reason": "含金条文≥15字片段", "law": "治安管理处罚法", "qtype": "B", "difficulty": "mid", "sid": "v3t-治安管理处罚法-0067", "ts": "00:11:23"}
+{"pool": "train", "stage": "qc", "reason": "组内ngram≥0.4", "law": "治安管理处罚法", "qtype": "A", "difficulty": "hard", "sid": "v3t-治安管理处罚法-0071", "ts": "00:11:28"}
+{"pool": "dev", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3d-刑法-0011", "ts": "00:11:49"}
+{"pool": "dev", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "hard", "sid": "v3d-刑法-0020", "ts": "00:12:00"}
+{"pool": "dev", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3d-刑法-0021", "ts": "00:12:02"}
+{"pool": "dev", "stage": "qc", "reason": "组内ngram≥0.4", "law": "民事诉讼法", "qtype": "A", "difficulty": "easy", "sid": "v3d-民事诉讼法-0006", "ts": "00:12:33"}
+{"pool": "dev", "stage": "qc", "reason": "含金条文≥15字片段", "law": "治安管理处罚法", "qtype": "A", "difficulty": "mid", "sid": "v3d-治安管理处罚法-0001", "ts": "00:12:37"}
+{"pool": "test", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3b-刑法-0006", "ts": "00:13:21"}
+{"pool": "test", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3b-刑法-0013", "ts": "00:13:29"}
+{"pool": "test", "stage": "qc", "reason": "与M2题余弦>0.90", "law": "刑法", "qtype": "A", "difficulty": "mid", "sid": "v3b-刑法-0016", "ts": "00:13:34"}
+{"pool": "test", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3b-刑法-0021", "ts": "00:13:40"}
+{"pool": "test", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3b-刑法-0021", "ts": "00:13:40"}
+{"pool": "test", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3b-刑法-0021", "ts": "00:13:40"}
+{"pool": "test", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "A", "difficulty": "easy", "sid": "v3b-刑法-0021", "ts": "00:13:40"}
+{"pool": "test", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "C", "difficulty": "easy", "sid": "v3b-刑法-0039", "ts": "00:14:00"}
+{"pool": "test", "stage": "qc", "reason": "含金条文≥15字片段", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3b-刑法-0043", "ts": "00:14:06"}
+{"pool": "test", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3b-刑法-0043", "ts": "00:14:07"}
+{"pool": "test", "stage": "qc", "reason": "组内ngram≥0.4", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3b-刑法-0043", "ts": "00:14:07"}
+{"pool": "test", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "刑法", "qtype": "B", "difficulty": "mid", "sid": "v3b-刑法-0043", "ts": "00:14:07"}
+{"pool": "test", "stage": "qc", "reason": "组内ngram≥0.4", "law": "反电信网络诈骗法", "qtype": "B", "difficulty": "easy", "sid": "v3b-反电信网络诈骗法-0003", "ts": "00:14:17"}
+{"pool": "test", "stage": "qc", "reason": "组内余弦>0.90", "law": "民事诉讼法", "qtype": "C", "difficulty": "mid", "sid": "v3b-民事诉讼法-0019", "ts": "00:15:04"}
+{"pool": "test", "stage": "qc", "reason": "组内ngram≥0.4", "law": "民事诉讼法", "qtype": "A", "difficulty": "easy", "sid": "v3b-民事诉讼法-0021", "ts": "00:15:06"}
+{"pool": "test", "stage": "qc", "reason": "组内余弦>0.90", "law": "民事诉讼法", "qtype": "A", "difficulty": "hard", "sid": "v3b-民事诉讼法-0026", "ts": "00:15:13"}
+{"pool": "test", "stage": "qc", "reason": "组内余弦>0.90", "law": "民事诉讼法", "qtype": "A", "difficulty": "easy", "sid": "v3b-民事诉讼法-0030", "ts": "00:15:19"}
+{"pool": "test", "stage": "qc", "reason": "组内余弦>0.90", "law": "民事诉讼法", "qtype": "A", "difficulty": "easy", "sid": "v3b-民事诉讼法-0030", "ts": "00:15:20"}
+{"pool": "test", "stage": "qc", "reason": "组内余弦>0.90", "law": "民事诉讼法", "qtype": "A", "difficulty": "easy", "sid": "v3b-民事诉讼法-0030", "ts": "00:15:20"}
+{"pool": "test", "stage": "slot", "reason": "3次尝试全失败，槽位放弃", "law": "民事诉讼法", "qtype": "A", "difficulty": "easy", "sid": "v3b-民事诉讼法-0030", "ts": "00:15:20"}
+{"pool": "test", "stage": "qc", "reason": "组内ngram≥0.4", "law": "民事诉讼法", "qtype": "A", "difficulty": "mid", "sid": "v3b-民事诉讼法-0031", "ts": "00:15:20"}
+{"pool": "test", "stage": "qc", "reason": "组内ngram≥0.4", "law": "治安管理处罚法", "qtype": "A", "difficulty": "easy", "sid": "v3b-治安管理处罚法-0006", "ts": "00:15:28"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3d-刑法-0026", "pool": "dev"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3d-治安管理处罚法-0001", "pool": "dev"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3d-治安管理处罚法-0005", "pool": "dev"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3n-刑法-0000", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3n-刑法-0025", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3n-反电信网络诈骗法-0026", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3n-反电信网络诈骗法-0051", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3n-未成年人保护法-0022", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "groundedness 概率非法（负值/和≤0/空）", "sid": "v3n-未成年人保护法-0037", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3n-未成年人保护法-0052", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3n-民事诉讼法-0018", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "groundedness 概率非法（负值/和≤0/空）", "sid": "v3n-民事诉讼法-0058", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3n-治安管理处罚法-0014", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3n-治安管理处罚法-0039", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-刑法-0002", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-刑法-0010", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-刑法-0126", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-刑法-0159", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-刑法-0235", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-未成年人保护法-0006", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-民事诉讼法-0032", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-民事诉讼法-0076", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-民事诉讼法-0088", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-民事诉讼法-0132", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-民事诉讼法-0148", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-民事诉讼法-0160", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-治安管理处罚法-0042", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-治安管理处罚法-0058", "pool": "train"}
+{"ts": "19:15:42", "stage": "finalize", "reason": "completeness 概率非法（负值/和≤0/空）", "sid": "v3t-治安管理处罚法-0066", "pool": "train"}

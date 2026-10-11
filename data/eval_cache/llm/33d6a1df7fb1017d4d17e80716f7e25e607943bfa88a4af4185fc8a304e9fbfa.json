@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在基层法院审理案件时，院长加入合议庭，而庭长另行指定一名审判员担任审判长，这样的指定具有法律效力吗？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《人民法院组织法》第47条，院长参加合议庭时当然担任审判长，庭长另行指定审判长违反法定程序，该指定无效。",
+ "usage": {
+  "completion_tokens": 35,
+  "prompt_tokens": 68,
+  "total_tokens": 103,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 68
+ }
+}

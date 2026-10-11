@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于张三在未获授权的情况下架设无线电台、严重扰乱通信秩序的行为，应当怎样处置？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "张三若在公共场所使用大功率无线设备，可能干扰民航导航或应急通信，因此应优先检查设备是否通过型号核准，并提醒市民合理使用频谱资源，共同维护空中电波秩序。",
+ "usage": {
+  "completion_tokens": 43,
+  "prompt_tokens": 59,
+  "total_tokens": 102,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 59
+ }
+}

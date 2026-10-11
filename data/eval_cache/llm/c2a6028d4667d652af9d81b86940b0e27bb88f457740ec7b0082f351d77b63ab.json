@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n甲将真币剪贴拼凑成面额更大的假币；乙明知是假币仍大量持有。二者分别该当何罪？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "若甲通过裁剪真币并拼接的方式制作出更大面额的伪钞，而乙在明知其为假币的情况下仍持有大量此类货币，二人各自应承担何种罪名？",
+ "usage": {
+  "completion_tokens": 38,
+  "prompt_tokens": 67,
+  "total_tokens": 105,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 67
+ }
+}

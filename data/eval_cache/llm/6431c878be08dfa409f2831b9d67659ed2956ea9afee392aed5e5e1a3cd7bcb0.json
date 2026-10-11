@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：针对电信网络诈骗高发的特定区域实施临时性风险防控举措，应当通过何种程序作出决定或获得批准？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "电信网络诈骗严重侵害群众财产安全，日常应加强反诈宣传，提升全民防骗意识。建议大家安装国家反诈中心APP，不轻信陌生来电，不随意转账，遇到可疑情况及时报警。",
+ "usage": {
+  "completion_tokens": 45,
+  "prompt_tokens": 62,
+  "total_tokens": 107,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 62
+ }
+}

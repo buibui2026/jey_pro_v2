@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：银行在发现客户账户出现异常交易后，没有进行身份核实就停止办理业务，这样做是否符合法律规定？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "根据《商业银行法》第三十条，银行发现异常交易可先冻结账户再核实身份，无需事先通知客户，因此停止办理业务合法。",
+ "usage": {
+  "completion_tokens": 31,
+  "prompt_tokens": 58,
+  "total_tokens": 89,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 58
+ }
+}

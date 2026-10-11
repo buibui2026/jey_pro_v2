@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 8,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于已经执行完毕的生效判决，若其后被撤销，而获得财产的一方拒绝返还，法院应当采取何种处理方式？\n回答：生效判决被撤销后，原获财产方拒返的，法院应依《民事诉讼法》第253条，裁定执行回转，责令返还；拒不履行的，可强制执行并追究妨害责任。\n该回答是否包含缺陷“把引用的条文号改成错误号码”？只答：是 或 否"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t43-verify"
+ },
+ "resp": "是",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 102,
+  "total_tokens": 103,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 102
+ }
+}

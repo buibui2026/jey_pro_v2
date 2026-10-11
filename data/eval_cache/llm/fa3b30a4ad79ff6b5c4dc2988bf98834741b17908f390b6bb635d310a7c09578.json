@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n甲公司持涉外仲裁裁决申请执行，乙公司证明仲裁庭组成与规则不符，法院应如何处理？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "若乙公司举证表明仲裁庭的组成方式与仲裁规则存在不一致，针对甲公司依据涉外仲裁裁决提出的执行申请，法院应当采取何种处理方式？",
+ "usage": {
+  "completion_tokens": 33,
+  "prompt_tokens": 58,
+  "total_tokens": 91,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 58
+ }
+}

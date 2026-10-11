@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于开卡数量超出限制而被拒绝的情形，以及已被开卡的用户被监测认定为涉诈异常的情形，各自应当适用哪一条规定？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "根据《电信网络诈骗及其关联违法犯罪联合惩戒办法》相关规定，银行账户开立数量超出限制的，应当结合客户尽职调查结果审慎办理；对于涉诈异常账户，金融机构应及时采取核实、限制或暂停服务等措施。具体条款适用需以最新文件为准。",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 67,
+  "total_tokens": 126,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 67
+ }
+}

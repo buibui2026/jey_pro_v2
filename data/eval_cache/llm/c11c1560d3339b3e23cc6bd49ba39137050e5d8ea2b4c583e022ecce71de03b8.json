@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n国家机关工作人员因玩忽职守损害未成年人权益，与因徇私舞弊损害未成年人权益，依未保法应受的处理是否相同？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "国家机关工作人员玩忽职守致使未成年人权益受损，和因徇私舞弊致使未成年人权益受损，按照未成年人保护法，所应承担的处理是否一样？",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 67,
+  "total_tokens": 101,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 67
+ }
+}

@@ -1,0 +1,50 @@
+# judge 四维八题（02_jey-as-a-judge方案.md §二 的机器可读版——候选文案与方案逐字一致，实现不改设计）
+ctx_relevance:
+  type: choice
+  instructions: 检索到的法条对回答该问题有多大帮助？
+  criteria:
+    相关: 含直接可用的条文依据
+    部分相关: 仅背景或部分覆盖
+    无关: 没有帮助
+ctx_sufficiency:
+  type: noul
+  instructions: 仅凭检索到的法条，是否足以回答该问题？
+groundedness:
+  type: choice
+  instructions: 答案中的论断被检索法条支持的程度？
+  criteria:
+    全部有据: 每个论断都能对应条文
+    部分有据: 有论断无出处
+    无据: 基本是编的
+citation_correct:
+  type: choice
+  instructions: 答案引用的法条号是否正确？
+  criteria:
+    正确: 引用号与内容相符
+    引用但内容不符: 引了条文号但内容对不上
+    未引用: 没有引用任何法条
+answers_question:
+  type: noul
+  instructions: 答案是否正面回答了所问的问题？
+completeness:
+  type: score
+  instructions: 答案的完整程度？
+  criteria:
+    - 只答了要点之一
+    - 覆盖主要要点
+    - 完整且说明了适用条件
+answer_correctness:
+  type: choice
+  eval_only: true        # 评测模式专用（state 拼金标）；生产模式整题跳过（02 方案 §三）
+  instructions: 答案与参考答案的实质一致程度？
+  criteria:
+    一致: 结论与要点均符
+    部分一致: 结论对但要点缺漏
+    不一致或相反: 结论错误
+overall:
+  type: score
+  instructions: 综合检索与答案，这次问答的整体质量？
+  criteria:
+    - 不合格：存在误导
+    - 合格：可用但有瑕疵
+    - 良好：可直接采纳

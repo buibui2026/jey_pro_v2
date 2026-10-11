@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n派出所民警当场发现某旅馆未登记旅客信息，事实清楚、证据确凿，拟警告并罚四百元，应如何衔接适用决定与当场处罚程序？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "对于派出所民警现场查获某旅馆未按规定登记旅客信息，且事实清楚、证据充分，准备给予警告并处罚款四百元的情形，应当怎样做好决定程序与当场处罚程序之间的衔接适用？",
+ "usage": {
+  "completion_tokens": 44,
+  "prompt_tokens": 71,
+  "total_tokens": 115,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 71
+ }
+}

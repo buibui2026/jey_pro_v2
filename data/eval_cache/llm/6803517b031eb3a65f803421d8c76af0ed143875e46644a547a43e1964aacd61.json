@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于已被执行完毕但随后被撤销的生效判决，若获得财产的一方拒绝返还，法院应当采取何种处理方式？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《民事诉讼法》第233条，执行完毕后判决被撤销的，取得财产的一方若拒绝返还，法院可对其处以罚款或拘留，并强制返还财产。",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 62,
+  "total_tokens": 98,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 62
+ }
+}

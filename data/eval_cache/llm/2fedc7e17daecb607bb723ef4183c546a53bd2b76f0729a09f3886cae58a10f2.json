@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：针对反诈工作人员的失职行为与普通单位的违规行为，这两部条文在追究责任的方式上存在哪些区别？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "依据《反电信网络诈骗法》第44条与第38条，反诈人员失职可处分、追刑责；普通单位违规一般责令整改、罚款。前者侧重行政与刑事双重追责，后者以行政处罚为主，责任方式明显不同。",
+ "usage": {
+  "completion_tokens": 56,
+  "prompt_tokens": 60,
+  "total_tokens": 116,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 60
+ }
+}

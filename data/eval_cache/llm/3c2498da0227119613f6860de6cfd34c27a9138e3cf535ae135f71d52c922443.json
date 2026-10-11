@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n涉外合同纠纷中，我国参加的国际条约与民诉法规定不同，但该条约某条款我国已声明保留，法院应如何选择适用？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "在涉外合同纠纷里，若我国缔结或参加的国际条约与民事诉讼法规定不一致，而该条约中的某个条款已被我国声明保留，那么法院应当怎样确定所适用的规范？",
+ "usage": {
+  "completion_tokens": 40,
+  "prompt_tokens": 68,
+  "total_tokens": 108,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 68
+ }
+}

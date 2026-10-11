@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于甲诱使乙吸食毒品，同时容留丙吸毒且情节较轻的情形，应当怎样予以处罚？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "吸毒行为严重危害身心健康，破坏家庭和谐与社会稳定。我们每个人都应坚决抵制毒品，积极参与禁毒宣传，发现涉毒线索及时向公安机关举报，共同维护无毒的社会环境。",
+ "usage": {
+  "completion_tokens": 38,
+  "prompt_tokens": 61,
+  "total_tokens": 99,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 61
+ }
+}

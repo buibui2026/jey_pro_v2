@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n生产未成年人食品未标注意事项但已达标，能否销售？若未达标但标了注意事项呢？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "对于符合标准但未标注注意事项的未成年人食品，是否可以合法销售？而如果该食品未达到标准，却已标注了注意事项，又该如何处理？",
+ "usage": {
+  "completion_tokens": 33,
+  "prompt_tokens": 58,
+  "total_tokens": 91,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 58
+ }
+}

@@ -1,0 +1,246 @@
+{"ts": "19:01:32", "id": "v3d-刑法-0002", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "d4ad9014a736"}
+{"ts": "19:01:32", "id": "v3d-刑法-0006", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:01:37", "id": "v3d-刑法-0010", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "085f2c073e56"}
+{"ts": "19:01:42", "id": "v3d-刑法-0014", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "695207536a46"}
+{"ts": "19:01:42", "id": "v3d-刑法-0018", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:01:47", "id": "v3d-刑法-0022", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "84ea8a894ab0"}
+{"ts": "19:01:51", "id": "v3d-刑法-0026", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "3d658bada95a"}
+{"ts": "19:01:57", "id": "v3d-未成年人保护法-0001", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "ac4b9406783a"}
+{"ts": "19:02:03", "id": "v3d-未成年人保护法-0005", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "172e8c308181"}
+{"ts": "19:02:06", "id": "v3d-未成年人保护法-0009", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "12cc169090fd"}
+{"ts": "19:02:10", "id": "v3d-民事诉讼法-0001", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "eead4e53a6bd"}
+{"ts": "19:02:13", "id": "v3d-民事诉讼法-0005", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "c4126e53f57a"}
+{"ts": "19:02:16", "id": "v3d-治安管理处罚法-0001", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "409d7ed8299e"}
+{"ts": "19:02:18", "id": "v3d-治安管理处罚法-0005", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "cb51b4629709"}
+{"ts": "19:02:24", "id": "v3t-刑法-0002", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "c66d0e4712d7"}
+{"ts": "19:02:24", "id": "v3t-刑法-0006", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:02:28", "id": "v3t-刑法-0010", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "6bb0cc8dec83"}
+{"ts": "19:02:31", "id": "v3t-刑法-0014", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "d44ad3b0dff1"}
+{"ts": "19:02:36", "id": "v3t-刑法-0018", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "6f2558e19df5"}
+{"ts": "19:02:40", "id": "v3t-刑法-0022", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "ddbca86aa3a2"}
+{"ts": "19:02:45", "id": "v3t-刑法-0026", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "2464f1d9cf30"}
+{"ts": "19:02:45", "id": "v3t-刑法-0030", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:02:49", "id": "v3t-刑法-0034", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "f5d81117f209"}
+{"ts": "19:02:53", "id": "v3t-刑法-0038", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "fc735d6da473"}
+{"ts": "19:02:53", "id": "v3t-刑法-0042", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:02:58", "id": "v3t-刑法-0046", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "41e0cc187797"}
+{"ts": "19:03:02", "id": "v3t-刑法-0050", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "3673b05749b2"}
+{"ts": "19:03:06", "id": "v3t-刑法-0054", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "bde205a47e36"}
+{"ts": "19:03:11", "id": "v3t-刑法-0058", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "61364532849b"}
+{"ts": "19:03:15", "id": "v3t-刑法-0062", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "54f3d3d78c33"}
+{"ts": "19:03:20", "id": "v3t-刑法-0066", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "bcae2142cb6d"}
+{"ts": "19:03:20", "id": "v3t-刑法-0070", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:03:23", "id": "v3t-刑法-0074", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "5f5fbc28fbf9"}
+{"ts": "19:03:27", "id": "v3t-刑法-0078", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "9886ae9bb6bc"}
+{"ts": "19:03:31", "id": "v3t-刑法-0082", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "984f31f04ebd"}
+{"ts": "19:03:35", "id": "v3t-刑法-0086", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "2325ac839fb0"}
+{"ts": "19:03:40", "id": "v3t-刑法-0090", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "9349df8bd6b6"}
+{"ts": "19:03:44", "id": "v3t-刑法-0094", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "e513ab9cdaa2"}
+{"ts": "19:03:44", "id": "v3t-刑法-0098", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:03:44", "id": "v3t-刑法-0102", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:03:48", "id": "v3t-刑法-0106", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "432e211efc64"}
+{"ts": "19:03:50", "id": "v3t-刑法-0110", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "229cd715345f"}
+{"ts": "19:03:54", "id": "v3t-刑法-0114", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "503538cdf819"}
+{"ts": "19:03:58", "id": "v3t-刑法-0118", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "b1cb928593bc"}
+{"ts": "19:04:02", "id": "v3t-刑法-0122", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "ad349aabb97f"}
+{"ts": "19:04:06", "id": "v3t-刑法-0126", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "67fba1d803a5"}
+{"ts": "19:04:10", "id": "v3t-刑法-0130", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "d0a4a3c3729b"}
+{"ts": "19:04:14", "id": "v3t-刑法-0134", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "b44b3cf88021"}
+{"ts": "19:04:14", "id": "v3t-刑法-0138", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:04:18", "id": "v3t-刑法-0143", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "1930333ec76b"}
+{"ts": "19:04:24", "id": "v3t-刑法-0147", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "96502797a78c"}
+{"ts": "19:04:27", "id": "v3t-刑法-0151", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "6b125eb7015c"}
+{"ts": "19:04:31", "id": "v3t-刑法-0155", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "dafc0aee521d"}
+{"ts": "19:04:35", "id": "v3t-刑法-0159", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "9c2e8daea424"}
+{"ts": "19:04:40", "id": "v3t-刑法-0163", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "3e28e89600b8"}
+{"ts": "19:04:44", "id": "v3t-刑法-0167", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "d8c76b2c0091"}
+{"ts": "19:04:44", "id": "v3t-刑法-0171", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:04:48", "id": "v3t-刑法-0175", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "9a346360259a"}
+{"ts": "19:04:52", "id": "v3t-刑法-0179", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "5efb30d8604a"}
+{"ts": "19:04:52", "id": "v3t-刑法-0183", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:04:57", "id": "v3t-刑法-0187", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "fd4fee0a7ad7"}
+{"ts": "19:05:01", "id": "v3t-刑法-0191", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "595ac5dd2b66"}
+{"ts": "19:05:07", "id": "v3t-刑法-0195", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "d363373502c3"}
+{"ts": "19:05:11", "id": "v3t-刑法-0199", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "817c10774006"}
+{"ts": "19:05:15", "id": "v3t-刑法-0203", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "e61fc9b65573"}
+{"ts": "19:05:15", "id": "v3t-刑法-0207", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:05:20", "id": "v3t-刑法-0211", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "645759fc05ac"}
+{"ts": "19:05:25", "id": "v3t-刑法-0215", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "3c18ae4182c6"}
+{"ts": "19:05:28", "id": "v3t-刑法-0219", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "a3115ee48e5b"}
+{"ts": "19:05:34", "id": "v3t-刑法-0223", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "834cc5d70a8f"}
+{"ts": "19:05:34", "id": "v3t-刑法-0227", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:05:34", "id": "v3t-刑法-0231", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:05:37", "id": "v3t-刑法-0235", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "ebffa6b80b95"}
+{"ts": "19:05:40", "id": "v3t-刑法-0239", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "1eb8ecf3f0d6"}
+{"ts": "19:05:40", "id": "v3t-刑法-0243", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:05:40", "id": "v3t-刑法-0247", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:05:40", "id": "v3t-刑法-0251", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:05:40", "id": "v3t-反电信网络诈骗法-0002", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:05:40", "id": "v3t-反电信网络诈骗法-0006", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:05:44", "id": "v3t-反电信网络诈骗法-0010", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "f644510cb002"}
+{"ts": "19:05:47", "id": "v3t-反电信网络诈骗法-0014", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "889e63ae04b3"}
+{"ts": "19:05:47", "id": "v3t-反电信网络诈骗法-0018", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:05:52", "id": "v3t-未成年人保护法-0002", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "c3f27927ffe4"}
+{"ts": "19:05:58", "id": "v3t-未成年人保护法-0006", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "e9951250892a"}
+{"ts": "19:05:58", "id": "v3t-未成年人保护法-0010", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:06:01", "id": "v3t-未成年人保护法-0014", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "9b6c6ddd4dc5"}
+{"ts": "19:06:01", "id": "v3t-未成年人保护法-0018", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:06:01", "id": "v3t-未成年人保护法-0022", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:06:06", "id": "v3t-未成年人保护法-0026", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "fb5b02c2631b"}
+{"ts": "19:06:06", "id": "v3t-未成年人保护法-0030", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:06:11", "id": "v3t-未成年人保护法-0034", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "79a5d9278f66"}
+{"ts": "19:06:15", "id": "v3t-未成年人保护法-0038", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "20a28080b911"}
+{"ts": "19:06:15", "id": "v3t-未成年人保护法-0042", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:06:19", "id": "v3t-未成年人保护法-0046", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "705833b4ce02"}
+{"ts": "19:06:19", "id": "v3t-未成年人保护法-0050", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:06:23", "id": "v3t-未成年人保护法-0054", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "585386cc1249"}
+{"ts": "19:06:23", "id": "v3t-未成年人保护法-0058", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:06:23", "id": "v3t-民事诉讼法-0000", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:06:29", "id": "v3t-民事诉讼法-0003", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "599e4ce7f06b"}
+{"ts": "19:06:29", "id": "v3t-民事诉讼法-0007", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:06:29", "id": "v3t-民事诉讼法-0011", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:06:33", "id": "v3t-民事诉讼法-0015", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "f4580aea4e1c"}
+{"ts": "19:06:37", "id": "v3t-民事诉讼法-0019", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "718377a22c80"}
+{"ts": "19:06:42", "id": "v3t-民事诉讼法-0023", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "7088eccb606d"}
+{"ts": "19:06:45", "id": "v3t-民事诉讼法-0028", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "0a5fb88babb2"}
+{"ts": "19:06:49", "id": "v3t-民事诉讼法-0032", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "b7c7994bb899"}
+{"ts": "19:06:51", "id": "v3t-民事诉讼法-0036", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "0ebe030054cb"}
+{"ts": "19:06:54", "id": "v3t-民事诉讼法-0040", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "d3eef9a10d10"}
+{"ts": "19:06:58", "id": "v3t-民事诉讼法-0044", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "e1ae94445048"}
+{"ts": "19:07:04", "id": "v3t-民事诉讼法-0048", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "f28b133f3020"}
+{"ts": "19:07:08", "id": "v3t-民事诉讼法-0052", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "444fb420068c"}
+{"ts": "19:07:12", "id": "v3t-民事诉讼法-0056", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "eccdd40c8020"}
+{"ts": "19:07:15", "id": "v3t-民事诉讼法-0060", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "c0e1ccf8da7d"}
+{"ts": "19:07:19", "id": "v3t-民事诉讼法-0064", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "c5289027b499"}
+{"ts": "19:07:23", "id": "v3t-民事诉讼法-0068", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "a43df22197a7"}
+{"ts": "19:07:28", "id": "v3t-民事诉讼法-0072", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "a618c14757c1"}
+{"ts": "19:07:31", "id": "v3t-民事诉讼法-0076", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "5f38eb0b44de"}
+{"ts": "19:07:34", "id": "v3t-民事诉讼法-0080", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "17d463bdd40d"}
+{"ts": "19:07:37", "id": "v3t-民事诉讼法-0084", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "dbcfe04e3c37"}
+{"ts": "19:07:42", "id": "v3t-民事诉讼法-0088", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "de08489abd81"}
+{"ts": "19:07:45", "id": "v3t-民事诉讼法-0092", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "740035fe4e3a"}
+{"ts": "19:07:48", "id": "v3t-民事诉讼法-0096", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "e3c8d006e158"}
+{"ts": "19:07:51", "id": "v3t-民事诉讼法-0100", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "10e4556c9c7b"}
+{"ts": "19:07:54", "id": "v3t-民事诉讼法-0104", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "2f2379c48bb0"}
+{"ts": "19:07:57", "id": "v3t-民事诉讼法-0108", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "f2feff85f415"}
+{"ts": "19:07:57", "id": "v3t-民事诉讼法-0112", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:08:01", "id": "v3t-民事诉讼法-0116", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "a9a059ab89fa"}
+{"ts": "19:08:01", "id": "v3t-民事诉讼法-0120", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:08:05", "id": "v3t-民事诉讼法-0124", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "641eb4183253"}
+{"ts": "19:08:09", "id": "v3t-民事诉讼法-0128", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "8656548b9f4f"}
+{"ts": "19:08:12", "id": "v3t-民事诉讼法-0132", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "c2c22470a77d"}
+{"ts": "19:08:12", "id": "v3t-民事诉讼法-0136", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:08:16", "id": "v3t-民事诉讼法-0140", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "7d79caba675c"}
+{"ts": "19:08:19", "id": "v3t-民事诉讼法-0144", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "39c2efe846be"}
+{"ts": "19:08:23", "id": "v3t-民事诉讼法-0148", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "385ecb3fbac8"}
+{"ts": "19:08:27", "id": "v3t-民事诉讼法-0152", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "61d5af43487a"}
+{"ts": "19:08:30", "id": "v3t-民事诉讼法-0156", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "5b7041487045"}
+{"ts": "19:08:34", "id": "v3t-民事诉讼法-0160", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "6b5028ab07b5"}
+{"ts": "19:08:38", "id": "v3t-民事诉讼法-0164", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "95da090b9697"}
+{"ts": "19:08:38", "id": "v3t-民事诉讼法-0168", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:08:42", "id": "v3t-民事诉讼法-0172", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "cef255fb0fea"}
+{"ts": "19:08:45", "id": "v3t-民事诉讼法-0176", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "24ea6fdfde92"}
+{"ts": "19:08:50", "id": "v3t-民事诉讼法-0180", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "998439cf0057"}
+{"ts": "19:08:53", "id": "v3t-民事诉讼法-0184", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "039b0ab1c517"}
+{"ts": "19:08:53", "id": "v3t-治安管理处罚法-0002", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:08:57", "id": "v3t-治安管理处罚法-0006", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "f4c44f7e242c"}
+{"ts": "19:09:00", "id": "v3t-治安管理处罚法-0010", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "45841baa7d7e"}
+{"ts": "19:09:03", "id": "v3t-治安管理处罚法-0014", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "7b9f2fd50de2"}
+{"ts": "19:09:07", "id": "v3t-治安管理处罚法-0018", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "9f1d36ddc338"}
+{"ts": "19:09:12", "id": "v3t-治安管理处罚法-0022", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "8818f9a2842c"}
+{"ts": "19:09:15", "id": "v3t-治安管理处罚法-0026", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "870bf7b511d8"}
+{"ts": "19:09:15", "id": "v3t-治安管理处罚法-0030", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:09:18", "id": "v3t-治安管理处罚法-0034", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "ff81bbfc8f70"}
+{"ts": "19:09:22", "id": "v3t-治安管理处罚法-0038", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "be4b16e4f029"}
+{"ts": "19:09:25", "id": "v3t-治安管理处罚法-0042", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "bd72d50ac63e"}
+{"ts": "19:09:30", "id": "v3t-治安管理处罚法-0046", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "7437c8fe4008"}
+{"ts": "19:09:34", "id": "v3t-治安管理处罚法-0050", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "fcfb451c8342"}
+{"ts": "19:09:37", "id": "v3t-治安管理处罚法-0054", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "26a36704e2b0"}
+{"ts": "19:09:40", "id": "v3t-治安管理处罚法-0058", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "9a7cb41c8811"}
+{"ts": "19:09:44", "id": "v3t-治安管理处罚法-0062", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "ab4b93b71b78"}
+{"ts": "19:09:48", "id": "v3t-治安管理处罚法-0066", "old": "trunc", "new": "partial_offconcl", "action": "regen+relabel", "answer_sha": "f1837b884faa"}
+{"ts": "19:09:48", "id": "v3t-治安管理处罚法-0070", "old": "trunc", "new": "concl_no_basis", "action": "relabel_only"}
+{"ts": "19:09:51", "id": "v3t-治安管理处罚法-0074", "old": "trunc", "new": "partial_keypoints", "action": "regen+relabel", "answer_sha": "fdca61a4dd47"}
+{"ts": "19:20:38", "id": "v3t-刑法-0006", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:20:45", "id": "v3t-刑法-0014", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:20:52", "id": "v3t-刑法-0018", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:20:56", "id": "v3t-刑法-0022", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:21:03", "id": "v3t-刑法-0030", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:21:08", "id": "v3t-刑法-0034", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:21:15", "id": "v3t-刑法-0038", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:21:22", "id": "v3t-刑法-0042", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:21:30", "id": "v3t-刑法-0054", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:21:36", "id": "v3t-刑法-0062", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:21:43", "id": "v3t-刑法-0070", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:21:50", "id": "v3t-刑法-0078", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:21:57", "id": "v3t-刑法-0082", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:22:04", "id": "v3t-刑法-0086", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:22:11", "id": "v3t-刑法-0098", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:22:17", "id": "v3t-刑法-0102", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:22:22", "id": "v3t-刑法-0106", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:22:26", "id": "v3t-刑法-0114", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:22:32", "id": "v3t-刑法-0118", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:22:40", "id": "v3t-刑法-0138", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:22:44", "id": "v3t-刑法-0143", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:22:51", "id": "v3t-刑法-0159", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:22:58", "id": "v3t-刑法-0167", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:23:05", "id": "v3t-刑法-0171", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:23:09", "id": "v3t-刑法-0175", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:23:16", "id": "v3t-刑法-0179", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:23:21", "id": "v3t-刑法-0183", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:23:28", "id": "v3t-刑法-0203", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:23:32", "id": "v3t-刑法-0207", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:23:37", "id": "v3t-刑法-0219", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:23:41", "id": "v3t-刑法-0227", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:23:47", "id": "v3t-刑法-0231", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:23:51", "id": "v3t-刑法-0235", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:23:58", "id": "v3t-刑法-0239", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:24:05", "id": "v3t-刑法-0243", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:24:12", "id": "v3t-刑法-0247", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:24:18", "id": "v3t-刑法-0251", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:24:23", "id": "v3t-反电信网络诈骗法-0006", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:24:30", "id": "v3t-反电信网络诈骗法-0010", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:24:37", "id": "v3t-反电信网络诈骗法-0018", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:24:41", "id": "v3t-未成年人保护法-0010", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:24:47", "id": "v3t-未成年人保护法-0014", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:24:55", "id": "v3t-未成年人保护法-0022", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:25:02", "id": "v3t-未成年人保护法-0026", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:25:06", "id": "v3t-未成年人保护法-0030", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:25:15", "id": "v3t-未成年人保护法-0042", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:25:21", "id": "v3t-未成年人保护法-0046", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:25:24", "id": "v3t-未成年人保护法-0050", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:25:31", "id": "v3t-未成年人保护法-0054", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:25:37", "id": "v3t-民事诉讼法-0000", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:25:42", "id": "v3t-民事诉讼法-0011", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:25:48", "id": "v3t-民事诉讼法-0015", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:25:53", "id": "v3t-民事诉讼法-0028", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:25:57", "id": "v3t-民事诉讼法-0036", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:26:04", "id": "v3t-民事诉讼法-0052", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:26:11", "id": "v3t-民事诉讼法-0056", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:26:18", "id": "v3t-民事诉讼法-0064", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:26:25", "id": "v3t-民事诉讼法-0076", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:26:31", "id": "v3t-民事诉讼法-0084", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:26:38", "id": "v3t-民事诉讼法-0096", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:26:45", "id": "v3t-民事诉讼法-0104", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:26:51", "id": "v3t-民事诉讼法-0108", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:26:58", "id": "v3t-民事诉讼法-0112", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:27:03", "id": "v3t-民事诉讼法-0116", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:27:09", "id": "v3t-民事诉讼法-0124", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:27:16", "id": "v3t-民事诉讼法-0128", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:27:20", "id": "v3t-民事诉讼法-0136", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:27:26", "id": "v3t-民事诉讼法-0144", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:27:33", "id": "v3t-民事诉讼法-0152", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:27:39", "id": "v3t-民事诉讼法-0156", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:27:46", "id": "v3t-民事诉讼法-0164", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:27:53", "id": "v3t-民事诉讼法-0168", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:28:00", "id": "v3t-民事诉讼法-0172", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:28:04", "id": "v3t-民事诉讼法-0176", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:28:10", "id": "v3t-民事诉讼法-0184", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:28:15", "id": "v3t-治安管理处罚法-0002", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:28:19", "id": "v3t-治安管理处罚法-0006", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:28:24", "id": "v3t-治安管理处罚法-0010", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:28:29", "id": "v3t-治安管理处罚法-0026", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:28:34", "id": "v3t-治安管理处罚法-0038", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:28:40", "id": "v3t-治安管理处罚法-0050", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:28:45", "id": "v3t-治安管理处罚法-0058", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}
+{"ts": "19:28:48", "id": "v3t-治安管理处罚法-0070", "old": "invalid_subform", "new": "partial_offconcl", "action": "regen+relabel"}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于被判处管制并附加剥夺政治权利的甲，以及被判处有期徒刑并附加剥夺政治权利的乙，二者在附加刑的刑期从何时开始计算以及如何执行方面存在哪些差异？\n请写一段约80字的回答，必须包含以下缺陷：写一段与问题完全无关的内容。除该缺陷外语言通顺像样。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t43-flaw"
+ },
+ "resp": "被判处管制的甲，剥夺政治权利与管制同时执行，刑期从判决执行之日起算；被判处有期徒刑的乙，剥夺政治权利从徒刑执行完毕或假释之日起算。今天天气晴朗，适合去公园散步。",
+ "usage": {
+  "completion_tokens": 50,
+  "prompt_tokens": 83,
+  "total_tokens": 133,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 83
+ }
+}

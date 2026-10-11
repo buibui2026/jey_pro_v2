@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n涉外合同纠纷中，被告提管辖异议，争议事实均在境外且无协议管辖，法院可否驳回起诉？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "在涉外合同纠纷里，若被告提出管辖权异议，相关争议事实全部发生在境外，且当事人之间没有约定管辖，法院能否裁定驳回起诉？",
+ "usage": {
+  "completion_tokens": 32,
+  "prompt_tokens": 60,
+  "total_tokens": 92,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 60
+ }
+}

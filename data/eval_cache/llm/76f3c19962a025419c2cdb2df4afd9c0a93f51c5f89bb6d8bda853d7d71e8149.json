@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：诉讼文书在受送达人为军人时，应由哪个单位负责转交？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《民事诉讼法》规定，受送达人是军人的，应通过其所在部队团以上单位的政治机关转交。这一程序旨在保障军人诉讼权利，确保文书及时送达。",
+ "usage": {
+  "completion_tokens": 39,
+  "prompt_tokens": 53,
+  "total_tokens": 92,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 53
+ }
+}

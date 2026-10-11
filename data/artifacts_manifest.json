@@ -1,0 +1,356 @@
+{
+ "version": "v3-rebuild",
+ "created_at": "2026-10-09T15:42:12+00:00",
+ "policy": {
+  "contaminated": "永久禁止进入任何训练或泛化评测",
+  "retired_dev": "仅调试/回归，禁止报告泛化指标",
+  "invalid": "生成缺陷，不可训练验收，仅留档",
+  "active": "唯一可进入训练/评测的数据"
+ },
+ "artifacts": [
+  {
+   "path": "data/rag_store/chunks.jsonl",
+   "status": "active",
+   "role": "法条库：5部法1137条chunk，V3全部合成的唯一源",
+   "contamination": null,
+   "sha256": "f29a7d2c2cac30051f0f2546f6a8029f78b29c0da0573707326a51af2f7c4bd3",
+   "bytes": 653987,
+   "n_records": 1137
+  },
+  {
+   "path": "data/rag_store/embeds.npy",
+   "status": "active",
+   "role": "法条向量索引（M1）",
+   "contamination": null,
+   "sha256": "3008ff44a74291b6f61e5fa7e524e5073b60caa4300dc52483a3f73157de3123",
+   "bytes": 4657280,
+   "n_records": null
+  },
+  {
+   "path": "data/testset/testset_final.jsonl",
+   "status": "retired_dev",
+   "role": "M2 正式测试集234条",
+   "contamination": "被 M4/M7 用作训练语义源，审计🔴-1；只做调试回归，禁止泛化指标",
+   "sha256": "b4b5e4039a0f0162a5d819f86b428c7d7c48c91b77244135c775155b9ea68b3c",
+   "bytes": 139753,
+   "n_records": 234
+  },
+  {
+   "path": "data/testset/testset_draft.jsonl",
+   "status": "retired",
+   "role": "M2 草稿集",
+   "contamination": "被 final 取代",
+   "sha256": "21fdf6a1e015cf8d41116ceb40fdc3d19acc7f32f89701ec89efcb56188b9ff8",
+   "bytes": 140721,
+   "n_records": 235
+  },
+  {
+   "path": "data/testset/smoke10.jsonl",
+   "status": "retired",
+   "role": "冒烟10题",
+   "contamination": null,
+   "sha256": "b8c1d23054c2261218119a49e3eb5ed8024ad37872104b41ab665b1f2cfee0f5",
+   "bytes": 1072,
+   "n_records": 10
+  },
+  {
+   "path": "data/testset/smoke_questions.jsonl",
+   "status": "retired",
+   "role": "冒烟题库",
+   "contamination": null,
+   "sha256": "8d7a10ebd3c82cab6904e93b9137c28573f9bc8169670e669ffa541e1e89db02",
+   "bytes": 5591,
+   "n_records": 47
+  },
+  {
+   "path": "data/testset/m3_t32_questions.jsonl",
+   "status": "retired_dev",
+   "role": "M3 长度实验题（T3.2）",
+   "contamination": "仅实验用，不入训练",
+   "sha256": "1e0dba0b130d1fbfd85cbe86ff429aff434a2778bbb6db5e6eef9d6ec72aa263",
+   "bytes": 42281,
+   "n_records": 60
+  },
+  {
+   "path": "data/testset/m3_t33_questions.jsonl",
+   "status": "retired_dev",
+   "role": "M3 长度实验题（T3.3）",
+   "contamination": "仅实验用，不入训练",
+   "sha256": "0986114e9a8fb24fe09fdbb2e87098b47d8e708cee46e8ff2aa4b99f54ea8ea7",
+   "bytes": 11942,
+   "n_records": 30
+  },
+  {
+   "path": "data/testset/badcases.jsonl",
+   "status": "retired_dev",
+   "role": "M1 坏例集",
+   "contamination": "仅调试",
+   "sha256": "25f4cd738ff743480656ea12bdccf30ee78e74e334df0d54cf8428a962e186bf",
+   "bytes": 4501,
+   "n_records": 3
+  },
+  {
+   "path": "data/train/laya_trainset.jsonl",
+   "status": "contaminated",
+   "role": "M4 定版300条",
+   "contamination": "299/300 条为 M2 语义改写（审计🔴：语义隔离失败）",
+   "sha256": "f399b7fb69523f066226ef9727abe3a30c896588383e8f300b9da0edb948343c",
+   "bytes": 4365334,
+   "n_records": 300
+  },
+  {
+   "path": "data/train/laya_trainset_draft.jsonl",
+   "status": "contaminated",
+   "role": "M4 草稿",
+   "contamination": "同上",
+   "sha256": "f399b7fb69523f066226ef9727abe3a30c896588383e8f300b9da0edb948343c",
+   "bytes": 4365334,
+   "n_records": 300
+  },
+  {
+   "path": "data/train/laya_trainset_pilot5.jsonl",
+   "status": "contaminated",
+   "role": "M4 先导5条",
+   "contamination": "同上",
+   "sha256": "9f337879cfbcf69be048af11313f6a1d2c2fba831ecd802f5c671cc0744b20b6",
+   "bytes": 44762,
+   "n_records": 5
+  },
+  {
+   "path": "data/train/qwen_jey_trainset.jsonl",
+   "status": "contaminated",
+   "role": "Qwen 旧训练集495条",
+   "contamination": "继承 M2/M4 污染，且与 Laya 集228题相同（审计🔴）",
+   "sha256": "936f76ae82db95db74b541b10975847ac7155a905cf910d58671c89537913685",
+   "bytes": 9109232,
+   "n_records": 495
+  },
+  {
+   "path": "data/train/qwen_jey_synth300.jsonl",
+   "status": "contaminated",
+   "role": "M7 先导300条",
+   "contamination": "同上",
+   "sha256": "7faedfc33af7718f24dc14db96dbba57fb81b89e619910cacad96fde33649163",
+   "bytes": 7133866,
+   "n_records": 330
+  },
+  {
+   "path": "data/train/qwen_jey_synth300.states.jsonl",
+   "status": "contaminated",
+   "role": "先导states旁产物",
+   "contamination": "同上",
+   "sha256": "f961908ca650e4ec1b4d2a7026addf69b9cff6f39f161c3ea7c23d8fd969064f",
+   "bytes": 2895512,
+   "n_records": 325
+  },
+  {
+   "path": "data/train/qwen_jey_batch1.jsonl",
+   "status": "contaminated",
+   "role": "M7 批1",
+   "contamination": "同上",
+   "sha256": "7be025119f178922bebe152eed0df8179edab61f6d6e60f8654d429d7ae9a2ad",
+   "bytes": 1202397,
+   "n_records": 88
+  },
+  {
+   "path": "data/train/qwen_jey_batch2.jsonl",
+   "status": "contaminated",
+   "role": "M7 批2",
+   "contamination": "同上",
+   "sha256": "cd84f22fc36066703f2701ab8057677e72736f3a4920d70415913db23c7d8ba7",
+   "bytes": 2140456,
+   "n_records": 148
+  },
+  {
+   "path": "data/train/qwen_jey_batch3.jsonl",
+   "status": "contaminated",
+   "role": "M7 批3",
+   "contamination": "同上",
+   "sha256": "0e9fa7cdb7e0db9e54afc2ba5cd22031d0b4d694861ffaa9ad6bc1cc13df104a",
+   "bytes": 5766379,
+   "n_records": 259
+  },
+  {
+   "path": "data/train/qwen_jey_dev_samples.jsonl",
+   "status": "contaminated",
+   "role": "M7 dev样本",
+   "contamination": "同上",
+   "sha256": "1f33d4c2217dd9aaa6773ec8e60957ce3cbdc64d20dc352a5440586c8c731b7a",
+   "bytes": 48287,
+   "n_records": 3
+  },
+  {
+   "path": "data/train/qwen_jey_semantic_regression.jsonl",
+   "status": "retired_dev",
+   "role": "语义回归断言集",
+   "contamination": "检测报警用，非训练",
+   "sha256": "aa8ddd495c71fa078a6bced68774145b8b6e708ad11b424339f8b5865a827923",
+   "bytes": 4375,
+   "n_records": 53
+  },
+  {
+   "path": "data/train/qwen_jey_trainset_v2.jsonl",
+   "status": "invalid",
+   "role": "v2 原始600条",
+   "contamination": "480条无gold仍生成answer_correctness（审计🔴-3）",
+   "sha256": "39bb60a82a16fb18218f28828e85a01656da535ef972eb514e4432a7d4b6fd22",
+   "bytes": 2561236,
+   "n_records": 600
+  },
+  {
+   "path": "data/train/qwen_jey_trainset_v2_fmt.jsonl",
+   "status": "invalid",
+   "role": "v2 格式化599条",
+   "contamination": "479条gold_answer为空、全量无split、600→599无reject记录、格式化脚本缺失",
+   "sha256": "eb2244f4d86102725cf176582b0c45c16f059e7d76178ff1f5c6e3aab237195c",
+   "bytes": 6094645,
+   "n_records": 599
+  },
+  {
+   "path": "data/train/t72v2_questions.jsonl",
+   "status": "invalid",
+   "role": "v2 题库800道",
+   "contamination": "先合成后随机切分，未按源分组（审计🔴）；C型题单条法条与定义冲突",
+   "sha256": "16553452829de308cfb4aaf2f451fc708b64f87cbb5e8ab5305cfe0ddf76b2a8",
+   "bytes": 197285,
+   "n_records": 736
+  },
+  {
+   "path": "data/train/t72v2_testset.jsonl",
+   "status": "invalid",
+   "role": "v2 测试集136条（题元数据）",
+   "contamination": "无gold无context，且切分随机；不可作评测集",
+   "sha256": "89c2b226f0cd83b54698641f9c47bd8f17f087fd285fd1361863dfa14d0df2fc",
+   "bytes": 36575,
+   "n_records": 136
+  },
+  {
+   "path": "data/train/t72v2_contexts.json",
+   "status": "invalid",
+   "role": "v2 检索上下文",
+   "contamination": "配套v2题库",
+   "sha256": "7fc4d912471d557a1a237d4cef1b7b8e2587ac5fe2882b56f40ec858125af71f",
+   "bytes": 2035145,
+   "n_records": null
+  },
+  {
+   "path": "data/train/qwen_jey_head_smoke.pt",
+   "status": "stale",
+   "role": "M8 冒烟head权重",
+   "contamination": "非正式训练产物",
+   "sha256": "6ec71c007658c3639949315f4523594a0793cc2c13723330a9624b411914803a",
+   "bytes": 1052181,
+   "n_records": null
+  },
+  {
+   "path": "data/train/qwen_jey_head_overfit.pt",
+   "status": "stale",
+   "role": "M8 过拟合自检权重",
+   "contamination": "非正式训练产物",
+   "sha256": "7184f33a87136d93ed4a89a9e5175d295d4dec9924c94970d0619b0987fd6596",
+   "bytes": 1052201,
+   "n_records": null
+  },
+  {
+   "path": "data/train/qwen_jey_门0三池清单.md",
+   "status": "retired",
+   "role": "v2 三池清单",
+   "contamination": "口径已被审计推翻",
+   "sha256": "67398d999f8f231db4c0ba3393b304410c3571bb4d0eea11d2c3900c0430b6a2",
+   "bytes": 17988,
+   "n_records": null
+  },
+  {
+   "path": "data/train/qwen_jey_门0三池清单_v2.md",
+   "status": "retired",
+   "role": "v2 三池清单修订",
+   "contamination": "同上",
+   "sha256": "3fcadf00c026bdc871a70c9ab9b43dc0a3badb64a47dd39033bb5d4f99e28b23",
+   "bytes": 19201,
+   "n_records": null
+  },
+  {
+   "path": "data/splits/source_groups.v3.json",
+   "status": "active",
+   "role": "V3 源分组切分（章级，三池互斥，冻结锚）",
+   "contamination": null,
+   "sha256": "6d229773fdae81c32638bd6eadb3131d5806faa35964673ab78560561fc8cd79",
+   "bytes": 22990,
+   "n_records": null
+  },
+  {
+   "path": "data/train_v3/questions_train.jsonl",
+   "status": "active",
+   "role": "V3 train 题库（出题即带 oracle gold）",
+   "contamination": null,
+   "sha256": "2b6f8e39e024708a1e04904fecb130529972d68e9161851cb6e09705b6f5e0be",
+   "bytes": 419598,
+   "n_records": 596
+  },
+  {
+   "path": "data/train_v3/questions_dev.jsonl",
+   "status": "active",
+   "role": "V3 dev 题库",
+   "contamination": null,
+   "sha256": "affff42c0b77512a7a60c3951f7ee596e897bdd3bd9e5ca1a0c065e10e08ccee",
+   "bytes": 41101,
+   "n_records": 60
+  },
+  {
+   "path": "data/train_v3/contexts.json",
+   "status": "active",
+   "role": "V3 真实检索上下文（M1 链路，可重放）",
+   "contamination": null,
+   "sha256": "0ba789d3590a731327c8b82fc199a4195ed0e3554a99290aaaacfbf742c97758",
+   "bytes": 1994074,
+   "n_records": null
+  },
+  {
+   "path": "data/train_v3/records_train.jsonl",
+   "status": "active",
+   "role": "V3 Qwen 训练记录（E01-E08 全过）",
+   "contamination": null,
+   "sha256": "d6842619806d02a2546c7439ad3c6f52da416edd2dd01f2a0c031d7880175d84",
+   "bytes": 8084375,
+   "n_records": 696
+  },
+  {
+   "path": "data/train_v3/records_dev.jsonl",
+   "status": "active",
+   "role": "V3 Qwen dev 记录（选点/校准用）",
+   "contamination": null,
+   "sha256": "f947de2ed31a1c9b62b820dd25f4eb82d931ddb5d686147bfc47e786228ede7c",
+   "bytes": 676413,
+   "n_records": 60
+  },
+  {
+   "path": "data/train_v3/laya_trainset_v3.jsonl",
+   "status": "active",
+   "role": "V3 Laya 训练集（calib=dev 记录级隔离）",
+   "contamination": null,
+   "sha256": "0e36bfaff41762fa88377c402b677d421524c36da48f27644d7d6132449dee96",
+   "bytes": 6582985,
+   "n_records": 756
+  },
+  {
+   "path": "data/train_v3/reject_log.jsonl",
+   "status": "active",
+   "role": "V3 全程拒绝记录（append-only）",
+   "contamination": null,
+   "sha256": "30db92098e0eb9e4f116cb34ad3124f51920d3440a25741a5325b4d93c09d0a0",
+   "bytes": 35885,
+   "n_records": 205
+  },
+  {
+   "path": "data/blind_test_v3/blind_testset.v3.jsonl",
+   "status": "active",
+   "role": "V3 盲测集（封存，冻结前禁看标签）",
+   "contamination": null,
+   "sha256": "097d8814e97fdd1b77db25389b756c34d0d4e09ce7021170e5aa860679c5781b",
+   "bytes": 81424,
+   "n_records": 117
+  }
+ ],
+ "provenance": "scripts/v3/a0_manifest.py（2026-10-09 审计后全量重登记）",
+ "updated_at": "2026-10-11T11:31:26+00:00"
+}

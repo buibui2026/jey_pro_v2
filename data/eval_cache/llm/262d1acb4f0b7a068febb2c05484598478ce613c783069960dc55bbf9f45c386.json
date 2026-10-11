@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：若甲公司与乙公司先后向两个均有管辖权的法院提起诉讼并分别立案，该案件应由哪一个法院进行审理？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "甲公司应优先审查合同中的仲裁条款是否有效，若约定不明则需重新协商。同时，乙公司可向市场监管部门投诉对方虚假宣传，并收集广告截图作为证据。此外，建议双方通过行业调解组织化解矛盾。",
+ "usage": {
+  "completion_tokens": 50,
+  "prompt_tokens": 62,
+  "total_tokens": 112,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 62
+ }
+}

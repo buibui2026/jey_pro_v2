@@ -1,0 +1,38 @@
+待抽取：656 条记录 ≈ 5116 行（eval 八题/production 七题）
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|██████████| 320/320 [00:00<00:00, 8471.74it/s]
+[20/656] 24s | 0.85条/s | ETA 12min
+[40/656] 44s | 0.90条/s | ETA 11min
+[60/656] 66s | 0.90条/s | ETA 11min
+[80/656] 88s | 0.91条/s | ETA 11min
+[100/656] 111s | 0.90条/s | ETA 10min
+[120/656] 138s | 0.87条/s | ETA 10min
+[140/656] 169s | 0.83条/s | ETA 10min
+[160/656] 198s | 0.81条/s | ETA 10min
+[180/656] 230s | 0.78条/s | ETA 10min
+[200/656] 259s | 0.77条/s | ETA 10min
+[220/656] 286s | 0.77条/s | ETA 9min
+[240/656] 316s | 0.76条/s | ETA 9min
+[260/656] 347s | 0.75条/s | ETA 9min
+[280/656] 379s | 0.74条/s | ETA 8min
+[300/656] 403s | 0.74条/s | ETA 8min
+[320/656] 427s | 0.75条/s | ETA 7min
+[340/656] 451s | 0.75条/s | ETA 7min
+[360/656] 476s | 0.76条/s | ETA 7min
+[380/656] 500s | 0.76条/s | ETA 6min
+[400/656] 527s | 0.76条/s | ETA 6min
+[420/656] 550s | 0.76条/s | ETA 5min
+[440/656] 573s | 0.77条/s | ETA 5min
+[460/656] 595s | 0.77条/s | ETA 4min
+[480/656] 619s | 0.78条/s | ETA 4min
+[500/656] 641s | 0.78条/s | ETA 3min
+[520/656] 665s | 0.78条/s | ETA 3min
+[540/656] 694s | 0.78条/s | ETA 2min
+[560/656] 725s | 0.77条/s | ETA 2min
+[580/656] 754s | 0.77条/s | ETA 2min
+[600/656] 784s | 0.77条/s | ETA 1min
+[620/656] 809s | 0.77条/s | ETA 1min
+[640/656] 836s | 0.77条/s | ETA 0min
+[656/656] 857s | 0.77条/s | ETA 0min
+特征就绪：656 条，缓存 1180 个行文件，耗时 14 分钟
+EXIT=0

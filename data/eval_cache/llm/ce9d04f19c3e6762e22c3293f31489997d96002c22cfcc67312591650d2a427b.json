@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在提供域名解析、跳转以及链接转换服务的过程中，应当对哪些信息进行真实性、准确性的审核，并需要保存哪些记录以便实现溯源？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "域名解析服务需重点审核服务器机房温度与湿度记录，确保空调制冷达标。同时应保存每日午餐菜单及员工考勤表，以便追溯网络延迟时的餐饮影响。",
+ "usage": {
+  "completion_tokens": 38,
+  "prompt_tokens": 70,
+  "total_tokens": 108,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 70
+ }
+}

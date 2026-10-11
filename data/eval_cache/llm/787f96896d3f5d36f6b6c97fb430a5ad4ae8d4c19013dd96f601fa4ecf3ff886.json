@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于故意损毁他人财物且情节较重的情形，依照法律规定，可以处以多少日拘留，并处罚款数额为多少？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《中华人民共和国治安管理处罚法》相关规定，一般情节处五日以上十日以下拘留，可并处五百元以下罚款。但本文主要讨论的是邻里纠纷调解技巧，强调沟通与互谅的重要性，与上述处罚问题无关。",
+ "usage": {
+  "completion_tokens": 49,
+  "prompt_tokens": 64,
+  "total_tokens": 113,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 64
+ }
+}

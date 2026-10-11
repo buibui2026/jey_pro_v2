@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在涉外民事纠纷里，如果当事人没有以书面协议方式选择我国法院管辖，我国法院是否可以依据该条获得管辖权？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "可以。根据《民事诉讼法》第265条，涉外合同或其他财产权益纠纷当事人未书面协议选择我国法院管辖的，只要合同在我国履行或诉讼标的物在我国等情形，我国法院即可行使管辖权。",
+ "usage": {
+  "completion_tokens": 45,
+  "prompt_tokens": 62,
+  "total_tokens": 107,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 62
+ }
+}

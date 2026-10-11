@@ -1,0 +1,27 @@
+{
+ "version": "v3",
+ "sealed_at": "2026-10-11T11:31:26+00:00",
+ "n_records": 117,
+ "sha256": "097d8814e97fdd1b77db25389b756c34d0d4e09ce7021170e5aa860679c5781b",
+ "upstream": {
+  "source_groups.v3.json": "sha256:6d229773fdae81c32638bd6eadb3131d5806faa35964673ab78560561fc8cd79",
+  "chunks.jsonl": "sha256:f29a7d2c2cac30051f0f2546f6a8029f78b29c0da0573707326a51af2f7c4bd3"
+ },
+ "discipline": [
+  "本集只用于最终盲测：模型与 prompt 冻结前，任何人不查看 gold_answer / 不以本集调 prompt、调参、选型",
+  "本集条文池（test 章）与 train/dev 章互斥；M2 用条全部隔离在 train 侧",
+  "gold_answer 为出题时同步生成的 oracle gold；2026-10-10 终审抽检 30/117（28对/1错/1备注）并完成 2 条 human-fix（留痕 train_v3/human_fix_log.jsonl），本轮为复验版"
+ ],
+ "columns": [
+  "id",
+  "split",
+  "law",
+  "chapter",
+  "qtype",
+  "difficulty",
+  "question",
+  "gold_answer",
+  "gold_articles",
+  "self_difficulty"
+ ]
+}

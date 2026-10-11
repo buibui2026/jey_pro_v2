@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于甲生产并销售足以引发严重食物中毒的食品、但并未导致实际危害的情形，应当如何处置？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《食品安全法》第一百二十三条，生产经营足以造成严重食物中毒的食品，尚不构成犯罪的，由监管部门没收违法所得及食品，并处货值金额十倍以上二十倍以下罚款。消费者还可主张价款十倍或损失三倍的惩罚性赔偿。",
+ "usage": {
+  "completion_tokens": 53,
+  "prompt_tokens": 61,
+  "total_tokens": 114,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 61
+ }
+}

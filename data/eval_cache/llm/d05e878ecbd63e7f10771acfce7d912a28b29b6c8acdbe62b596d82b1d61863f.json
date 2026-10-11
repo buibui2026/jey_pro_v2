@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n甲将行政执法机关先行登记保存的财物擅自卖掉；乙将他人犯罪所得赃物藏在家中，两者分别适用哪条？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "甲擅自变卖了行政执法机关先行登记保存的财物，乙则将他人犯罪所得的赃物藏匿于家中，这两种情形各自应当依据哪一条规定处理？",
+ "usage": {
+  "completion_tokens": 34,
+  "prompt_tokens": 64,
+  "total_tokens": 98,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 64
+ }
+}

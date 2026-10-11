@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：根据法律规定，旅馆等住宿经营者在接待未成年人入住时，需要了解哪些信息？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《未成年人保护法》第五十九条，旅馆等住宿经营者接待未成年人入住时，应询问其父母或其他监护人的联系方式、入住人员身份关系等情况，并记录备查。",
+ "usage": {
+  "completion_tokens": 38,
+  "prompt_tokens": 53,
+  "total_tokens": 91,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 53
+ }
+}

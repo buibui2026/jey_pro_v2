@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：针对电信网络诈骗高发的特定区域实施临时性风险防控举措，应当通过何种程序作出决定或获得批准？\n请写一段约80字的回答，必须包含以下缺陷：编造一个法条里没有的论断（虚构处罚幅度或要件）。除该缺陷外语言通顺像样。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t43-flaw"
+ },
+ "resp": "针对电信网络诈骗高发区域实施临时性风险防控，应由省级公安机关报国务院批准，并提前七日公告；未经批准擅自实施的，对直接责任人处十万元以上五十万元以下罚款。",
+ "usage": {
+  "completion_tokens": 41,
+  "prompt_tokens": 75,
+  "total_tokens": 116,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 75
+ }
+}

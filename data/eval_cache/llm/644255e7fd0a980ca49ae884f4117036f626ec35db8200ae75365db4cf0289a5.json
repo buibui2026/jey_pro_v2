@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：张三组织中国公民到境外参与赌博，涉案赌资数额特别巨大，应当怎样确定罪名和适用刑罚？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《刑法》第三百零三条及《关于办理赌博刑事案件具体应用法律若干问题的解释》，组织中国公民境外赌博，赌资特别巨大，应定组织参与国（境）外赌博罪，处五年以上十年以下有期徒刑，并处罚金。",
+ "usage": {
+  "completion_tokens": 52,
+  "prompt_tokens": 60,
+  "total_tokens": 112,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 60
+ }
+}

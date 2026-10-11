@@ -1,0 +1,1 @@
+{"req": {"model": "deepseek-v4-flash", "temperature": 0.0, "max_tokens": 300, "messages": [{"role": "user", "content": "问题：某网站传播危害未成年人身心健康的视频，网信部门应如何处理？\n请写一段约 80 字的【有缺陷】回答，缺陷要求：引用完全无关的法条的条文号。\n只输出回答正文。"}], "thinking": {"type": "disabled"}, "tag": "v3-a3-flawed"}, "resp": "根据《中华人民共和国食品安全法》第三十四条，网信部门应责令该网站立即停止传播，并处以罚款；情节严重的，吊销许可证并追究刑责。"}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：某小学在得知教师对学生实施性骚扰后，没有向公安机关报案，只进行了内部批评，这种做法违背了哪些义务？\n请写一段约80字的回答，必须包含以下缺陷：把引用的条文号改成错误号码。除该缺陷外语言通顺像样。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t43-flaw"
+ },
+ "resp": "该校未履行《未成年人保护法》第三十九条规定的强制报告义务，也违背了《教师法》第三十七条关于保护学生人身安全的要求，仅内部批评属于处置不当，应依法向公安机关报案并配合调查。",
+ "usage": {
+  "completion_tokens": 47,
+  "prompt_tokens": 70,
+  "total_tokens": 117,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 70
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：各级人民政府在社会治安综合治理方面承担哪些职责，并应采取哪些措施？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《社会治安综合治理条例》第99条规定，各级人民政府应负责协调公安、司法等部门，采取预防、打击、教育、管理等各项措施，维护社会治安秩序。",
+ "usage": {
+  "completion_tokens": 35,
+  "prompt_tokens": 50,
+  "total_tokens": 85,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 50
+ }
+}

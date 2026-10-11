@@ -1,0 +1,1 @@
+{"req": {"model": "deepseek-v4-flash", "temperature": 0.0, "max_tokens": 300, "messages": [{"role": "user", "content": "问题：拘役的期限与刑期起算、羁押折抵，分别由哪两条规定？\n请写一段约 80 字的【有缺陷】回答，缺陷要求：引用完全无关的法条的条文号。\n只输出回答正文。"}], "thinking": {"type": "disabled"}, "tag": "v3-a3-flawed"}, "resp": "根据《刑法》第64条与第65条，拘役期限为一个月以上六个月以下，刑期从判决执行之日起计算，羁押一日折抵刑期一日。"}

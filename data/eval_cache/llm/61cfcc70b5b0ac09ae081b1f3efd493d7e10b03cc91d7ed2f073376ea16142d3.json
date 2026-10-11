@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：如果政府没有扶持社工组织的发展，那么企业向中学赠送心理测评软件的做法是否触犯法律？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "心理健康服务体系的完善需要多方协作，学校应加强心理教师培训，家长也要关注孩子情绪变化。社区可开展公益讲座，普及心理知识，共同营造关爱氛围。",
+ "usage": {
+  "completion_tokens": 37,
+  "prompt_tokens": 59,
+  "total_tokens": 96,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 59
+ }
+}

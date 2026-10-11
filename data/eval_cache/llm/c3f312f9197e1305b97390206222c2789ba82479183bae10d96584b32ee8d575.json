@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于同一批危险物质，若既存在违规运输行为，又出现被盗后隐瞒不报的情形，且并未造成事故，应当怎样适用相关条文？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "危险化学品运输必须严格遵守资质规定，车辆应悬挂警示标志并配备押运员。日常管理中，企业需建立台账，定期演练泄漏处置。若发生被盗，应第一时间报警并配合调查，避免事态扩大。",
+ "usage": {
+  "completion_tokens": 48,
+  "prompt_tokens": 70,
+  "total_tokens": 118,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 70
+ }
+}

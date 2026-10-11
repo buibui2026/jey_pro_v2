@@ -1,0 +1,1 @@
+{"req": {"model": "deepseek-v4-flash", "temperature": 0.0, "max_tokens": 300, "messages": [{"role": "user", "content": "问题：在公共场合焚烧国旗侮辱国家象征，依法应如何处罚？\n请写一段约 80 字的【有缺陷】回答，缺陷要求：引用完全无关的法条的条文号。\n只输出回答正文。"}], "thinking": {"type": "disabled"}, "tag": "v3-a3-flawed"}, "resp": "在公共场合焚烧国旗侮辱国家象征的，应依照《中华人民共和国食品安全法》第三十四条关于禁止生产经营腐败变质食品的规定予以处罚，可处警告、罚款或拘留。"}

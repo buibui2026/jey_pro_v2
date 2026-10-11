@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n某小学发现教师性骚扰学生后，未向公安机关报告，仅内部批评。该校违反了什么义务？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "对于教师性骚扰学生的情况，某小学在知悉后既未向公安机关报案，也仅以内部批评方式处理，这种做法违背了哪些法定义务？",
+ "usage": {
+  "completion_tokens": 35,
+  "prompt_tokens": 59,
+  "total_tokens": 94,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 59
+ }
+}

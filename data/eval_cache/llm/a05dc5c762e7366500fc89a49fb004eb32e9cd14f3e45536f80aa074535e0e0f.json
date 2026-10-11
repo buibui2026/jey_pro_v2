@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在涉外合同纠纷里，若我国缔结或参加的国际条约与民事诉讼法规定不一致，而该条约中的某个条款已被我国声明保留，那么法院应当怎样确定所适用的规范？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "涉外合同纠纷常涉及管辖权与法律适用，当事人可协议选择适用法律。若未选择，则依最密切联系原则确定准据法。法院应审查合同履行地、标的物所在地等因素，并考虑国际商事惯例的补充作用。",
+ "usage": {
+  "completion_tokens": 52,
+  "prompt_tokens": 77,
+  "total_tokens": 129,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 77
+ }
+}

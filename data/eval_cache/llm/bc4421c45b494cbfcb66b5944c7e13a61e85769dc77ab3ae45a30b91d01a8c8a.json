@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在询问女性未成年被害人时，安排女警参与并同步录音录像，以及事后为被害人提供心理干预和转学安置，这两类措施各自依据的是哪一条规定？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《刑事诉讼法》第281条，询问未成年被害人应通知法定代理人到场；若无法通知，可通知其他合适成年人。心理干预与转学安置则属于社会救助范畴，通常由民政、教育部门协同处理，与询问程序无直接关联。",
+ "usage": {
+  "completion_tokens": 55,
+  "prompt_tokens": 75,
+  "total_tokens": 130,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 75
+ }
+}

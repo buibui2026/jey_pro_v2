@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 8,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于甲在庭审过程中高声辱骂法官、经制止仍不停止、严重妨害法庭秩序的行为，应当怎样处理？\n回答：对甲应依《民事诉讼法》第113条，由审判长责令退出法庭；若仍不停止，可处十日以下拘留、二十万元以下罚款，且必须经院长批准，情节严重者依法追究刑事责任。\n该回答是否包含缺陷“编造一个法条里没有的论断（虚构处罚幅度或要件）”？只答：是 或 否"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t43-verify"
+ },
+ "resp": "是",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 113,
+  "total_tokens": 114,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 113
+ }
+}

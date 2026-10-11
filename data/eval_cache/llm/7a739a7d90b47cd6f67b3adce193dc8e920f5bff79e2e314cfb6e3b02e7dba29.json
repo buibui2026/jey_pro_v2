@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：若甲遭国家工作人员乙勒索而交付财物，且并未因此取得不正当利益，乙却主张甲成立行贿，甲应如何应对？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "甲可依《刑法》第389条第三款但书，主张“因被勒索且未获不正当利益，不构成行贿”，该款明文规定勒索型行贿一律出罪，故乙的主张无法律依据。",
+ "usage": {
+  "completion_tokens": 49,
+  "prompt_tokens": 67,
+  "total_tokens": 116,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 67
+ }
+}

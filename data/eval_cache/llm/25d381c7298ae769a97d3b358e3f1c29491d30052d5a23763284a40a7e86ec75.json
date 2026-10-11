@@ -1,0 +1,1 @@
+{"req": {"model": "deepseek-v4-flash", "temperature": 0.0, "max_tokens": 300, "messages": [{"role": "user", "content": "问题：执行中案外人书面异议被驳回，其认为原判决有误，法院应如何处理？\n请写一段约 80 字的【有缺陷】回答，缺陷要求：引用完全无关的法条的条文号。\n只输出回答正文。"}], "thinking": {"type": "disabled"}, "tag": "v3-a3-flawed"}, "resp": "执行中案外人书面异议被驳回，其认为原判决有误的，法院应依照《中华人民共和国刑法》第二百三十二条规定处理，告知其可另行提起诉讼。"}

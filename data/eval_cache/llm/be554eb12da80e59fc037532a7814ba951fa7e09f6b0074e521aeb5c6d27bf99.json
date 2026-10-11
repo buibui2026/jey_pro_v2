@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：当执行已满六个月而尚未终结，债权人若发现新的财产，应当怎样在这三条中作出适用选择？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "执行满六个月未终结，债权人发现新财产时，应优先适用《民事诉讼法》第254条，因该条明确规定“新财产必须由原执行法院在七日内直接查封”。若法院逾期未处理，债权人可依第255条申请更换执行法院，但不得另行起诉。",
+ "usage": {
+  "completion_tokens": 63,
+  "prompt_tokens": 60,
+  "total_tokens": 123,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 60
+ }
+}

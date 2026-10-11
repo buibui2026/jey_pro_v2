@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：关于未成年人遭受歧视的规定，这两部法律条文之间存在哪些差异？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "未成年人保护法强调家庭、学校、社会、网络、政府、司法六大保护体系，而预防未成年人犯罪法主要关注不良行为矫治与教育挽救。两部法律均重视未成年人权益，但侧重点不同，前者重保护，后者重预防。",
+ "usage": {
+  "completion_tokens": 54,
+  "prompt_tokens": 51,
+  "total_tokens": 105,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 51
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：对于甲在庭审过程中高声辱骂法官、经制止仍不停止、严重妨害法庭秩序的行为，应当怎样处理？\n请写一段约80字的【有缺陷】回答，缺陷要求：编造一个法条中不存在的论断。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "根据《人民法院法庭规则》第19条，甲的行为应直接构成藐视法庭罪，由法官当庭判处十日拘留并罚款一万元，无需另行起诉。",
+ "usage": {
+  "completion_tokens": 37,
+  "prompt_tokens": 63,
+  "total_tokens": 100,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 63
+ }
+}

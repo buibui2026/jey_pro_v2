@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n直播平台为17岁用户注册开播账号未核实身份未获监护人同意，与平台向未成年人推送打赏消费管理功能缺失，分别违反哪条？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "对于17岁用户在直播平台注册开播账号时，平台既未核实身份，也未取得监护人同意，以及平台未向未成年人提供打赏消费管理功能，这两项分别触犯了哪些条款？",
+ "usage": {
+  "completion_tokens": 43,
+  "prompt_tokens": 71,
+  "total_tokens": 114,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 71
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在当事人一方死亡的情形下，诉讼须满足哪些条件才会中止等待？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《民事诉讼法》第151条第1款第1项，一方当事人死亡，需等待继承人表明是否参加诉讼的，诉讼中止。若死亡当事人有继承人且愿承继，则中止事由消除后恢复；无继承人则终结。",
+ "usage": {
+  "completion_tokens": 53,
+  "prompt_tokens": 51,
+  "total_tokens": 104,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 51
+ }
+}

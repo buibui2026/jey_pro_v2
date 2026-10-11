@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n四机关办理涉未成年人案件时，若未听取未成年人意见但用了其能理解的语言，是否已尽到该条规定的全部义务？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "在办理涉及未成年人的案件过程中，四个相关机关如果没有征询未成年人的意见，但采用了未成年人能够理解的语言进行沟通，是否就算完全履行了该条文所规定的所有义务？",
+ "usage": {
+  "completion_tokens": 39,
+  "prompt_tokens": 66,
+  "total_tokens": 105,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 66
+ }
+}

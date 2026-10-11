@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在成年子女赡养纠纷案件的审理过程中，法院是否可以委托社会工作者对未成年人的状况进行调查？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《民法典》规定，父母对未成年子女负有抚养义务，若父母离婚，应妥善处理子女抚养问题。法院在审理离婚案件时，可委托社工进行社会调查，以保障未成年人权益。",
+ "usage": {
+  "completion_tokens": 44,
+  "prompt_tokens": 58,
+  "total_tokens": 102,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 58
+ }
+}

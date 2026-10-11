@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n15岁少年胁迫他人劳动，与17岁少年煽动非法集会不听劝阻，分别应否执行行政拘留？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-qrewrite"
+ },
+ "resp": "对于15岁未成年人以胁迫方式让他人劳动，以及17岁未成年人煽动非法集会且经劝阻仍不停止，这两种情形是否应当分别适用行政拘留？",
+ "usage": {
+  "completion_tokens": 35,
+  "prompt_tokens": 61,
+  "total_tokens": 96,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 61
+ }
+}

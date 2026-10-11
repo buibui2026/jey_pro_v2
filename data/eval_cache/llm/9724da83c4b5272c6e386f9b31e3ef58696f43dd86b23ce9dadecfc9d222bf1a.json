@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在离婚诉讼里，张某虽然委托了诉讼代理人并且具备表达意愿的能力，但拒绝出庭，这种情况下法院应当怎样处理？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-ans-flaw"
+ },
+ "resp": "根据《民事诉讼法》第62条，离婚案件有诉讼代理人的，本人除不能表达意思外仍应出庭；张某拒不出庭，法院可依法拘传。",
+ "usage": {
+  "completion_tokens": 38,
+  "prompt_tokens": 63,
+  "total_tokens": 101,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 63
+ }
+}

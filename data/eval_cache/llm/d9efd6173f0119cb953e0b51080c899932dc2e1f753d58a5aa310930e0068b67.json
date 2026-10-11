@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：移动互联网应用程序的设立需要向哪一个部门申请许可或者办理备案？\n请写一段约80字的回答，必须包含以下缺陷：编造一个法条里没有的论断（虚构处罚幅度或要件）。除该缺陷外语言通顺像样。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t43-flaw"
+ },
+ "resp": "依据《移动互联网应用程序信息服务管理规定》，APP设立应向网信部门办理备案；若未在三十日内完成，可处十万元以上五十万元以下罚款。同时，涉及新闻、出版等内容的，还需取得相应许可。",
+ "usage": {
+  "completion_tokens": 47,
+  "prompt_tokens": 65,
+  "total_tokens": 112,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 65
+ }
+}

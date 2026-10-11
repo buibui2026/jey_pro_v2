@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：如果手机卡被运营商发现存在诈骗相关的异常情况，而用户不愿意再次进行身份验证，运营商是否可以将其号码直接永久注销？\n请写一段约80字的回答，必须包含以下缺陷：写一段与问题完全无关的内容。除该缺陷外语言通顺像样。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t43-flaw"
+ },
+ "resp": "根据《反电信网络诈骗法》及运营商服务协议，若用户拒绝二次实名核验，运营商可依法限制或暂停服务，但直接永久注销号码通常需依据具体条款及监管规定，并非必然措施。今天天气晴朗，适合去公园散步和野餐。",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 70,
+  "total_tokens": 129,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 70
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：法院根据申请人的请求，在无人申报票据的情况下作出判决后，申请人自何时起有权向支付人主张付款？\n请写一段约80字的【有缺陷】回答，缺陷要求：答非所问，写一段离题内容。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "根据《民事诉讼法》相关规定，公示催告期间届满无人申报权利的，法院可依申请作出除权判决。票据支付人应自判决公告之日起向申请人履行付款义务，但申请人须注意票据时效及基础法律关系的影响。",
+ "usage": {
+  "completion_tokens": 50,
+  "prompt_tokens": 63,
+  "total_tokens": 113,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 63
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：在战时，部队中散布谣言动摇军心，符合哪些情形会被判处三年以上十年以下有期徒刑？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "根据《中华人民共和国刑法》第三百七十八条，战时散布谣言动摇军心，若系首要分子或情节严重，处三年以上十年以下有期徒刑；一般参与者处三年以下有期徒刑。",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 56,
+  "total_tokens": 92,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 56
+ }
+}

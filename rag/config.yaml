@@ -1,0 +1,28 @@
+# M1 全链配置（唯一配置入口；key 只走环境变量，不落盘）
+paths:
+  rag_store: data/rag_store
+  eval_cache: data/eval_cache
+  runs: data/runs
+  embedding_gguf: ~/.lmstudio/models/Qwen/Qwen3-Embedding-0.6B-GGUF/Qwen3-Embedding-0.6B-Q8_0.gguf
+  reranker_gguf: ~/.lmstudio/models/ggml-org/Qwen3-Reranker-0.6B-Q8_0-GGUF/qwen3-reranker-0.6b-q8_0.gguf
+  laya_root: /Users/yangkun/Desktop/Projects/model/laya
+  laya_multilingual: /Users/yangkun/Desktop/Projects/model/laya/multilingual
+  qwen_backbone: /Users/yangkun/Desktop/Projects/model/backbone      # M8 特征抽取主干（读取位 hidden）
+  qwen_tokenizer: /Users/yangkun/Desktop/Projects/model/tokenizer    # Qwen3.5 tokenizer（Base/工件同源）
+
+retrieval:
+  top_n: 20          # 粗排候选数
+  top_k_max: 6       # 冒烟期 K 上限（M3 扩展后放开到 10，02 方案 §三）
+  context_token_budget: 3200
+  chars_per_token: 0.75   # 中文粗估：token ≈ 字数×0.75
+
+generator:
+  base_url: https://api.deepseek.com
+  model: deepseek-v4-flash   # 用户示例实测可用（2026-10-06）
+  disable_thinking: true     # thinking:{"type":"disabled"}——实测有效（enable_thinking 被忽略）
+  temperature: 0.0   # 固定 0 保证可缓存（T1.3 规范化要求）
+  max_tokens: 800    # 关思考后 800 足够；思考参数进缓存键，避免新旧模式串台
+
+judge:
+  max_len: 8192      # multilingual 默认 1024 会静默截断——必须显式传（T1.4 最隐蔽的坑）
+  device: mps

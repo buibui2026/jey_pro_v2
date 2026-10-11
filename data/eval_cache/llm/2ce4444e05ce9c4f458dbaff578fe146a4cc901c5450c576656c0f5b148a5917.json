@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 8,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：若甲公司与乙公司先后向两个均有管辖权的法院提起诉讼，该案应由哪一个法院进行审理？\n回答：依据《民事诉讼法》第三十五条，若甲公司先起诉且乙公司后诉，后诉法院应裁定移送先诉法院；但若后诉标的额超五百万元，则后诉法院可优先审理。故本案通常由先立案法院审理。\n该回答是否包含缺陷“编造一个法条里没有的论断（虚构处罚幅度或要件）”？只答：是 或 否"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t43-verify"
+ },
+ "resp": "是",
+ "usage": {
+  "completion_tokens": 1,
+  "prompt_tokens": 116,
+  "total_tokens": 117,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 116
+ }
+}

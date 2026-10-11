@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 200,
+  "messages": [
+   {
+    "role": "user",
+    "content": "把下面的法律问题换一种问法：保持语义完全一致，改变措辞与句式，不要回答，不要解释。\n甲判管制并附加剥夺政治权利，乙判有期徒刑并附加剥夺政治权利，两人附加刑期起算与执行方式有何不同？\n只输出改写后的问题。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t72qj-qrewrite"
+ },
+ "resp": "对于被判处管制并附加剥夺政治权利的甲，以及被判处有期徒刑并附加剥夺政治权利的乙，二者在附加刑的刑期从何时开始计算以及如何执行方面存在哪些差异？",
+ "usage": {
+  "completion_tokens": 41,
+  "prompt_tokens": 66,
+  "total_tokens": 107,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 66
+ }
+}

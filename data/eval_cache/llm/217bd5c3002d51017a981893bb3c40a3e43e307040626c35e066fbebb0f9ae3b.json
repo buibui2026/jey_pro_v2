@@ -1,0 +1,33 @@
+{
+ "req": {
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 400,
+  "messages": [
+   {
+    "role": "user",
+    "content": "问题：甲在诈骗罪刑满释放后，市公安局是否有权决定其在三年内不准出境？\n请写一段约80字的【有缺陷】回答，缺陷要求：引用错误的条文号（号码改错）。只输出回答正文。"
+   }
+  ],
+  "thinking": {
+   "type": "disabled"
+  },
+  "tag": "t42-ans-flaw"
+ },
+ "resp": "根据《中华人民共和国出境入境管理法》第十二条，甲因诈骗罪刑满释放未满三年，市公安局有权决定其不准出境。该决定符合法律规定，无需再经上级机关批准。",
+ "usage": {
+  "completion_tokens": 41,
+  "prompt_tokens": 54,
+  "total_tokens": 95,
+  "completion_tokens_details": null,
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 54
+ }
+}
