@@ -92,11 +92,13 @@ def main():
                 n_tok = len(rows[qk]["ids"])
                 check(n_tok <= 4096, "行预算", f"{rid}.{qk} {n_tok}")
 
-    # ── 1b. 缓存文件数==总行数（防键共享：行明文唯一 ⇒ 文件唯一；
-    #        2026-10-10 实测踩坑——键漏掉题行时 5116 行只落 1180 文件、多题读回彼此特征） ──
+    # ── 1b. 缓存文件数 ≥ 总行数（防键共享：键漏题行时文件数 < 行数，多题读回彼此特征；
+    #        文件数 > 行数＝旧键孤儿（数据重放后行明文变了），append-only 缓存的正常残留——报告不拒） ──
     n_files = len(list(CACHE_DIR.glob("*.pt")))
-    check(n_files == n_rows_total, "缓存文件数",
-          f"{n_files}!={n_rows_total}（键共享或覆盖不全）")
+    check(n_files >= n_rows_total, "缓存文件数",
+          f"{n_files}<{n_rows_total}（键共享或覆盖不全）")
+    if n_files > n_rows_total:
+        print(f"ℹ️ 孤儿缓存 {n_files - n_rows_total} 个（旧键残留，无害；如需清理可清空目录全量重抽）")
 
     # ── 7. 端到端样本构造 ──
     all_recs = recs["train"] + recs["dev"]

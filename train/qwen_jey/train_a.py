@@ -183,8 +183,9 @@ def main() -> None:
     print(f"\n== 训练集 == agree={res['train']['agree']:.1%} KL={res['train']['kl']:.4f}")
     print(f"== 验证（独立 dev）== agree={res['val']['agree']:.1%} KL={res['val']['kl']:.4f} "
           f"brier={res['val']['brier']:.4f} ece={res['val']['ece']:.4f}")
-    torch.save(res["head"].state_dict(), f"data/train/qwen_jey_head_{'overfit' if args.overfit else 'smoke'}.pt")
-    print("头权重已存 data/train/")
+    Path("data/train_v3").mkdir(parents=True, exist_ok=True)
+    torch.save(res["head"].state_dict(), f"data/train_v3/head_{'overfit' if args.overfit else 'smoke'}.pt")
+    print("头权重已存 data/train_v3/")
 
 
 if __name__ == "__main__":
